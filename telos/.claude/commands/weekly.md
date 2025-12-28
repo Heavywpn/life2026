@@ -1,6 +1,6 @@
 ---
 description: Weekly review - analyze patterns, assess goals, plan next week (30-45 min)
-allowed-tools: Read, Write, Edit, Bash(date:*), Glob, Grep
+allowed-tools: Read, Write, Edit, Bash(date:*), Bash(python:*), Glob, Grep
 ---
 
 # Weekly Review
@@ -14,6 +14,27 @@ date "+%A, %B %d, %Y - %H:%M"
 ```
 
 Confirm: "Ready for your weekly review. Today is [DAY, DATE]. We're reviewing the week of [calculate the week dates]. Correct?"
+
+## STEP 0.5: Fetch Week's Data
+
+Pull 7 days of WHOOP data for weekly analysis:
+
+```bash
+cd /home/x/Life/telos && python3 scripts/integrations/whoop.py --days 7 2>/dev/null
+```
+
+Read the cached WHOOP data if available:
+- `/home/x/Life/telos/.claude/data/whoop_latest.json`
+
+Prepare a weekly body data summary:
+- Average Recovery Score
+- Average Sleep Duration
+- Total Strain for the week
+- Number of workouts
+- Best/Worst recovery days
+- Sleep consistency patterns
+
+This objective data will inform the health discussion and pattern analysis.
 
 ## STEP 1: Gather Context
 

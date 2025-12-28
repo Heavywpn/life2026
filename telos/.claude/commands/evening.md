@@ -1,6 +1,6 @@
 ---
 description: Evening reflection - process the day and capture insights (10-15 min)
-allowed-tools: Read, Write, Edit, Bash(date:*), Glob
+allowed-tools: Read, Write, Edit, Bash(date:*), Bash(python:*), Glob
 ---
 
 # Evening Reflection
@@ -17,6 +17,26 @@ date "+%A, %B %d, %Y - %H:%M"
 Confirm: "Good evening! Closing out [DAY, DATE]. Is this correct?"
 
 Only proceed after confirmation.
+
+## STEP 0.5: Sync End-of-Day Data
+
+Fetch fresh WHOOP data to capture full day's strain:
+
+```bash
+cd /home/x/Life/telos && python3 scripts/integrations/whoop.py --days 1 2>/dev/null
+```
+
+Read cached data if available:
+- `/home/x/Life/telos/.claude/data/whoop_latest.json`
+
+Present a day summary if WHOOP data exists:
+"**Today's Body Data:**
+- Day Strain: [X]
+- Calories Burned: [X]
+- Workouts: [list if any]
+- Current Recovery: [X]% (for tomorrow)"
+
+This provides objective data to compare with their subjective experience.
 
 ## STEP 1: Gather Context
 
@@ -105,6 +125,11 @@ Update the evening section of today's journal entry:
 ```markdown
 **Evening Reflection**
 
+**Day Data (WHOOP):** *(if available)*
+- Day Strain: [X] | Calories: [X]
+- Workouts: [list]
+- Recovery Trending: [X]%
+
 **Priority Review:**
 - [Priority 1]: ✓ / ✗ / Partial - [Notes]
 - [Priority 2]: ✓ / ✗ / Partial - [Notes]
@@ -112,6 +137,7 @@ Update the evening section of today's journal entry:
 
 **Fitness & Body:**
 - Exercise: [What they did or "Rest day"]
+- WHOOP vs Feel: [Compare objective data with subjective feel]
 - Body state: [Notes]
 - Nutrition: [Brief notes]
 

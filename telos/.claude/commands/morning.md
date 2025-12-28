@@ -1,6 +1,6 @@
 ---
 description: Morning ritual - set intentions and priorities for the day (5-10 min)
-allowed-tools: Read, Write, Edit, Bash(date:*), Glob
+allowed-tools: Read, Write, Edit, Bash(date:*), Bash(python:*), Glob
 ---
 
 # Morning Ritual
@@ -17,6 +17,32 @@ date "+%A, %B %d, %Y - %H:%M"
 Confirm with the user: "Good morning! Today is [DAY, DATE]. Is this correct?"
 
 Only proceed after confirmation. This prevents date confusion in journal entries.
+
+## STEP 0.5: Sync External Data
+
+Fetch fresh data from integrations (weather always works, WHOOP/Calendar if configured):
+
+```bash
+cd /home/x/Life/telos && python3 scripts/integrations/weather.py 2>/dev/null
+```
+
+Also try to fetch WHOOP and Calendar (these may fail if not configured - that's OK):
+```bash
+cd /home/x/Life/telos && python3 scripts/integrations/whoop.py --days 1 2>/dev/null
+cd /home/x/Life/telos && python3 scripts/integrations/outlook.py --days 1 2>/dev/null
+```
+
+Read the cached data files if they exist:
+- `/home/x/Life/telos/.claude/data/weather_latest.json`
+- `/home/x/Life/telos/.claude/data/whoop_latest.json`
+- `/home/x/Life/telos/.claude/data/calendar_latest.json`
+
+Present a brief data summary to start the ritual:
+"**Today's Data:**
+- Weather: [conditions, temp]
+- Recovery: [X]% (if WHOOP available)
+- Sleep: [X] hrs (if WHOOP available)
+- Meetings: [N] scheduled (if calendar available)"
 
 ## STEP 1: Gather Context
 
@@ -68,14 +94,22 @@ Format:
 
 **Morning**
 
+**Data Snapshot:**
+- Weather: [conditions from sync]
+- WHOOP Recovery: [X]% | Sleep: [X] hrs (if available)
+- Meetings Today: [N] (if calendar synced)
+
 **Energy Level:** [X/10]
-**Sleep:** [Notes]
+**Sleep Quality:** [Notes - compare with WHOOP if available]
 **Capacity:** [Full/Limited/Recovery]
 
 **Top 3 Priorities:**
 1. [Priority] → Serves: [G# or Mission element]
 2. [Priority] → Serves: [G# or Mission element]
 3. [Priority] → Serves: [G# or Mission element]
+
+**Today's Calendar Highlights:**
+- [Key meetings/events from calendar sync, if available]
 
 **Daily Intention:** [Who they want to BE today]
 
