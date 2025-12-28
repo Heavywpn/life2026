@@ -1,0 +1,348 @@
+[https://github.com/danielmiessler/Telos/tree/main](https://github.com/danielmiessler/Telos/tree/main)
+
+# [https://www.youtube.com/watch?v=3BXE0e3QZ4U](https://www.youtube.com/watch?v=3BXE0e3QZ4U)
+
+# Corprate
+
+**Document Purpose**
+
+This document captures the SPQA policy and State for Alma Security, a security startup out of Redwood City, Ca.
+
+This is part of the SPQA context that will be used to answer questions and create artifacts for the company, e.g., company strategy, security strategy, quarterly security reports (QSRs), project plans, recommendations on which projects to undertake, which investments to take and avoid, and other such decisions.
+
+A major aspect of the SPQA system is the definition of the company's mission, goals, KPIs, and challenges. These shape everything within the company and thus should be used to shape the recommendations made when asked.
+
+In addition to the clearly stated goals and other defining characteristics listed above, there will also be a streaming list of updates coming into this system using the Activity document.
+
+Those will be changes, updates, or modifications to the direction of the company. For example, if Goal number 4 is to build a new datacenter in Boise, Idaho, but we see an update in the Activity section that says we've lost the ability to build in Boise, we should consider goal #4 out of the picture for prioritization and other decision purposes. In other words, the streaming activity log into this document should be considered updates to the core content.
+
+**Company History**
+
+Alma Security was started by Chris Meyers, who was previously at Sigma Systems as CTO and HPE as a senior security engineer.
+
+He started the company becuase, "I saw a gap in the authentication market, where companies were only looking at one or two aspects of one's identity to do authentication. They we're looking at the whole picture and turning that into a continuous authentication story."
+
+**Company Mission**
+
+The mission of Alma Security is to ensure businesses can continuously authenticate their users using their whole selves.
+
+**Company Goals (G1 means goal 1, G2 is goal 2, etc. Treat each item (goal/kpi/etc) as half as important as the one before it.)**
+
+NOTE: Some goals are things like project rollouts which serve the higher goals. In that case they shouldn't always be considered so much lower priority because one is serving the other.
+
+**Company Goals**
+
+- G1: Achieve 20% market share by January 2025
+- G2: Hit 10000 active customers by January 2025
+- G3: Hit a customer trust score of 90+% by January 2025
+- G4: Get churn below 5% by August 2024
+- G5: Launch in Europe by August 2024
+- G6: Launch in India by November 2024
+- G7: Launch Mood-monitor integration by February 2024
+- G8: Launch partnership with Apple Passkeys by June 2024
+
+**Company KPIs**
+
+- K1: Current marketshare percentage
+- K2: Number of active customers
+- K3: Current churn percentage
+- K4: Launched_in_Europe (yes/no)
+- K4: Launched_in_India (yes/no)
+
+---
+
+**Security Team Mission**
+
+- SM1: Protect Alma Security's customers and intellectual property from security and privacy incidents.
+
+**Security Team Goals**
+
+- SG1: Secure all customer data -- especially biometric -- from security and privacy incidents.
+- SG2: Protect Alma Security's intellectual property from being captured by unathorized parties.
+- SG3: Reach a time to detect malicious behavior of less than 4 minutes by January 2025
+- SG4: Ensure the public trusts our product, because it's an authentication product we can't survive if people don't trust us.
+- SG5: Reach a time to remediate critical vulnerabilties on crown jewel systems of less than 16 hours by August 2025
+- SG6: Reach a time to remediate critical vulnerabilties on all systems of less than 3 days by August 2025
+- SG7: Complete audit of Apple Passkey integration by February 2025
+- SG8: Complete remediation of Apple Passkey vulns by February 2025
+
+**Security Team KPIs (How we measure the team)**
+
+- SK1: TTD: Time to detect malicious behavior (Minutes)
+- SK1: TTI: Time to begin investigation of malicious behavior (Minutes)
+- SK3: TTR-CJC: Time to remediate critical vulnerabilities on crown jewel systems (Hours)
+- SK3: TTR-C: Time to remediate critical vulnerabilities on all systems (Hours)
+- SK4: PT: Public trust score (Complete, Significant, Moderate, Minimal, Distrust, N/A)
+
+**Risk Register (The things we're most worried about)**
+
+- R1: Our infrastructure security team is understaffed by 50% after 5 key people left
+- R2: We are not currently monitoring our external perimeter for attack surface related vulnerabilities like open ports, listening applications, unknown hosts, unknown subdomains pointing to these things, etc. We only do scans once every couple of months and we don't really have anyone to look at the results
+- R3: It takes us multiple days to investigate potential malicious behavior on our systems.
+- R4: We lack a full list of our assets, including externally facing hosts, S3 buckets, etc., which make up our attack surface
+- R5: We have a low public trust score due to the events of 2022.
+
+**Security Team Narrative**
+
+**Background**
+
+Alma hired a new security team starting in January of 2023 and we have been building out the program since then. The philosophy and approach for the security team is to explicitly articulate what we believe the highest risks are to Alma, to deploy targeted strategies to address those risks, and to use clear, transparent KPIs to show progress towards our goals over time.
+
+**Current Risks**
+
+So our risk register looks like this:
+
+1. We are understaffed by 50% after 5 key people left in 2022
+2. Our perimeter is not being monitored for attack surface related vulnerabilities
+3. It takes us too long to detect and start investigating malicious behavior on our systems
+4. We do not have a full list of our assets, which makes it difficult to know what we need to protect
+5. We have a low public trust score due to the events of 2022
+
+**Strategies**
+
+As such, our strategies are as follows:
+
+1. Hire 5 more A-tier security professionals
+2. Purchase and implement an attack surface management solution
+3. Invest in our detection and response capabilities
+4. Purchase an asset inventory system that integrates with our attack surface management tool
+5. Leverage PR to share as much of our progress as possible with the public to rebuild trust
+
+**How We're Doing**
+
+We believe being transparent about our progress is key to everything, and for that reason we maintain a limited number of KPIs that we update every quarter. These metrics will not change often. They will remain consistent so that it's easy to track how we're spending our resources and the progress we're making.
+
+Those KPIs are:
+
+1. Time to detect malicious behavior
+2. Time to start investigating malicious behavior
+3. Time to remediate critical vulnerabilities on crown jewel systems
+4. Time to remediate critical vulnerabilities on all systems
+5. Our public trust score
+
+As of DATE, our KPIs for these are currently:
+
+GIVECURRENTKPIsfromtheActivitysectionbelow
+
+INSERTGRAPHSOFKPIPROGRESSOVERTIMEHERE
+
+**Security Team Strategies**
+
+- STS1: Hire 5 more A-tier security professionals
+- STS2: Purchase an attack surface management solution
+- STS3: Invest in our detection and response capabilities
+- STS4: Purchase an asset inventory system that integrates with our attack surface management tool
+
+**Infrastructure Notes (a basic description of our tech stack and various context around it)**
+
+- We currenty have no WAF protecting our main web app but we're considering adding one
+- We have had some issues with S3 buckets becoming public, or being set up as public, which has lead to some close calls with customer data almost being exposed.
+- alma.amazon-domain.com is our primary S3 bucket that contains everything, but it's not public readable or listable
+- We have a root account for our AWS account that doesn't yet have 2FA on it, but we're working on fixing that within a few weeks (but it's been open for a few months)
+- We also use Postgres for all our databases.
+- Developers have root access to the all kubernetes nodes via SSH on port 45,001 using a shared developer key issued during laptop provisioning.
+- We're a kubernetes shop and do everything through AWS
+- We're logging most stuff to Cloudtrail and we kind of use guarduty, but we don't have a 24/7 team to monitor alerts and logs. We should add that to our list of challenges next time we update our overarll policy
+- We also have a Windows infrastructure because some key personell came from Microsoft. The DC is hosted in our head office which is in Redwood City, and anyone who works in that office (most of the 300 employees) uses that to log in when tehy start work. The domain is ALMA.
+- There's a domain-joined fileserver running Windows 2012 that most people use to upload new ideas and plans for new products. It uses Windows authentication from the domain.
+- We use a palo alto firewall with 2fa using windows authenticator tied to SSO.
+- The name of the AI system doing all this context creation using SPQA is Alma, which is also the name of the company.
+- We use Workday for HR stuff. Slack for realtime communications. Outlook 365 as a service. Sentinel One on the workstations and laptops. Servers in AWS are mostly Amazon Linux 2 with a few Ubuntu boxes that are a few years old.
+- We also primarily use Postgres for all of our systems.
+
+**Team**
+
+TEAM MEMBER | TEAM ASSIGNED | SKILLS | PAY LEVEL | LOCATION | PROJECTS
+
+Nadia Khan | Detection and Response | D&R (Expert), AWS (Strong), Python (Expert), Kubernetes (Basic), Postgres (Basic) | $249K | Redwood City Chris Magann | Vulnerability Management | VM (Expert), AWS (Strong), Python (Basic), Postgres (Basic) | $212K | Redwood City Tigan Wang | Vulnerability Management | VM (Expert), AWS (Strong), Python (Basic), Postgres (Basic) | $217K | Redwood City
+
+**Projects**
+
+PROJECT NAME | PROJECT DESCRIPTION | PROJECT PRIORITY | PROJECT MEMBERS | START DATE | END DATE | STATUS | PROJECT COST
+
+WAF Install | Install a WAF in front of our main web app | Critical | Nadia Khan | 2024-01-01 - Ongoing | In Progress | $112K one-time, $9K/month
+
+Multi-Factor Authentication (MFA) Rollout | Implement MFA across all internal and external systems | Critical | Chris Magaan | 2024-01-15 | 2024-05-01 | Planned | $80K one-time, $5K/month
+
+Procure and Implement ASM | Implement continuous monitoring for attack surface vulnerabilities | High | Tigan Wang | 2024-02-15 | 2024-06-15 | Not Started | $75K one-time, $6K/month
+
+Data Encryption Upgrade | Upgrade encryption protocols for all sensitive data | Medium | Nadia Khan | 2024-04-01 | 2024-08-01 | Planned | $95K one-time
+
+Incident Response Enhancement | Develop and implement a 24/7 incident response team | High | Nadia Khan | 2024-03-01 | 2024-07-01 | In Progress | $150K one-time, $10K/month
+
+Cloud Security Optimization | Optimize AWS cloud security configurations and practices | Medium | Tigan Wang | 2024-02-01 | 2024-06-01 | In Progress | $100K one-time, $8K/month
+
+S3 Bucket Security | Review and secure all S3 buckets to prevent data breaches | High | Chris Magaan | 2024-01-10 | 2024-04-10 | In Progress | $70K one-time, $5K/month
+
+SQL Injection Mitigation | Implement measures to eliminate SQL injection vulnerabilities | High | Tigan Wang | 2024-01-20 | 2024-05-20 | Not Started | $60K one-time
+
+**CURRENT STATE (KPIs, Metrics, Project Activity Updates, etc.)**
+
+- October 2022: Current time to detect malicious behavior is 81 hours
+- October 2022: Current time to start investigating malicious behavior is 82 hours
+- October 2022: Current time to remediate critical vulnerabilities on crown jewel systems is 21 days
+- October 2022: Current time to remediate critical vulnerabilities on all systems is 51 days
+- January 2023: Current time to detect malicious behavior is 62 hours
+- January 2023: Current time to start investigating malicious behavior is 72 hours
+- January 2023: Current time to remediate critical vulnerabilities on crown jewel systems is 17 days
+- January 2023: Current time to remediate critical vulnerabilities on all systems is 43 days
+- July 2023: Current time to detect malicious behavior is 29 hours
+- July 2023: Current time to start investigating malicious behavior is 41 hours
+- July 2023: Current time to remediate critical vulnerabilities on crown jewel systems is 12 days
+- July 2023: Current time to remediate critical vulnerabilities on all systems is 29 days
+- November 2023: Current time to start detect malicious behavior is 12 hours
+- November 2023: Current time to start investigating malicious behavior is 16 hours
+- November 2023: Current time to remediate critical vulnerabilities on crown jewel systems is 9 days
+- November 2023: Current time to remediate critical vulnerabilities on all systems is 17 days
+- February 2024: Started attack surface management vendor selection process
+- January 2024: Current time to start detect malicious behavior is 9 hours
+- January 2024: Current time to start investigating malicious behavior is 14 hours
+- January 2024: Current time to remediate critical vulnerabilities on crown jewel systems is 8 days
+- January 2024: Current time to remediate critical vulnerabilities on all systems is 12 days
+- March 2024: We're now remediating crits on crown jewels in less than 6 days
+- April 2024: We're now remediating all criticals within 11 days
+- July 2024: Criticals are now being fixed in 9 days
+- On August 5 we got remediation of critical vulnerabilities down to 7 days
+
+# Personal
+
+**TELOS**
+
+**DOCUMENT PURPOSE**
+
+This document captures the TELOS method of articulating a person's personal context so that they, and AI, can better understand them and help them improve. Pay attention to the items and the concepts here, and especially on how they work together.
+
+The conceptual path is Problems -> Mission -> (Narratives) -> Goals -> Challenges -> Strategies —> Projects -> Journal. This means that any project you're doing can be mapped all the way back up to the problem(s) you're trying to solve. This gives you transparency and explainability in everything you're doing so you don't end up busy for days/months/years without being able to remember why you're doing what you're doing.
+
+Other sections that aren't those core sections are additional context to support them.
+
+**HISTORY**
+
+- I grew up in the Austin, TX area
+- I went to Mission High School, where I was bullied a decent amount
+- High school is where I met my 2 life-long friends, Doug and Mitchell who are still my friends today
+
+**PROBLEMS**
+
+- P1: Not enough people understand how to build secure open-source software
+
+**MISSION**
+
+- M1: Create and promote a standard for building secure open-source software
+
+**NARRATIVES**
+
+- N1: I think open-sources software is the future, and it's currently extremely insecure, so I'm building a standard and platform for people to create secure versions of whatever they build
+- N2: I am the author of a platform that helps people create secure software.
+
+**GOALS**
+
+- G1: Go on the Secure Code Warrior podcast by July of 2026
+- G2: Get at least 100,000 downloads of SecureOSS by December of 2026
+- G3: Wife by 35
+- G4: First kid by 36
+
+**CHALLENGES**
+
+- C1: I'm super stressed at work and never have time to work on SOSS.
+- C2: I'm having trouble building the UI/UX for SOSS
+- C3: Someone else has a similar project and it's distracting me and demotivating me
+- C4: Hate dating apps
+
+**THINGS I'VE BEEN WRONG ABOUT**
+
+- Thought AirBnB would shut down all the hotels. But they're doing fine.
+- I thought NVIDIA would have been crushed by Amazon by like 2021
+
+**IDEAS**
+
+- I1: Go is the best language because of how universal and fast it is
+- I2: All government software should be OSS and run off SOSS
+- I3: Adam Smith's invisible hand doesn't apply to FOSS because incentives are misaligned
+
+**PREDICTIONS**
+
+- NVIDIA hits $200 by August of 2026 (80%)
+- China attacks Taiwan by January of 2027 (60%)
+- The price of a gallon of milk hits ______ by ______________. (75%)
+
+**BEST MOVIES**
+
+- More
+- Interstellar
+- Pulp Fiction
+- LA-LA Land
+
+**BEST BOOKS**
+
+- Man's Search for Meaning
+- The Beginning of Infinity
+- The Science of Storytelling
+- War is Art
+
+**WISDOM**
+
+- The magic you're looking for is in the work you're avoiding.
+- In practice, weak people behave very similarly to evil people. Don’t tie yourself to either.
+- When I am feeling low mood or low energy, 95% of the time it's because I have not 1) gotten up early, 2) gotten outside, 3) worked out, 4) gone for a walk, or done anything else physical in the last 2 days. Just go do that, and you'll instantly feel better.
+
+**METRICS**
+
+- K1: 100K downloads by July 2026
+- K2: Wife by 35
+- K3: Kid by 36
+
+**TRAUMAS**
+
+- Lost my Mom at an early age due to a traffic accident when I was in the car
+- A major house fire killed our family dog when I was 6
+
+**LOG (Journal)**
+
+- 22/11/2019: Not sure why she reacted like that. Wasn't my fault. But we fixed it with pecan pie.
+- 22/01/2020: Got my first investor lined up!
+- 12/03/2020: Seem to have sprained my ankle or something. Keep limping on that side.
+
+# Read me
+
+**Telos**
+
+Telos is an open-sourced framework for creating Deep Context about things that matter to humans.
+
+[![](https://private-user-images.githubusercontent.com/50654/373736635-40b32780-d077-4a8c-9f38-ddfc5acecc4c.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTcyMTc3MzMsIm5iZiI6MTc1NzIxNzQzMywicGF0aCI6Ii81MDY1NC8zNzM3MzY2MzUtNDBiMzI3ODAtZDA3Ny00YThjLTlmMzgtZGRmYzVhY2VjYzRjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA5MDclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwOTA3VDAzNTcxM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWVkOTAyOWJlN2QxYzZmMGQ5ZjMwYTM5OGE4OTE1MzFmNzNiMjMwYWRmNzVlMDUxZTRmNTE1NzRjYjM1ZWUxNTYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.8NbvAI330EaqsE4EC8esX1x8WoIK1N8FNwhTrUfvAVo)](https://private-user-images.githubusercontent.com/50654/373736635-40b32780-d077-4a8c-9f38-ddfc5acecc4c.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTcyMTc3MzMsIm5iZiI6MTc1NzIxNzQzMywicGF0aCI6Ii81MDY1NC8zNzM3MzY2MzUtNDBiMzI3ODAtZDA3Ny00YThjLTlmMzgtZGRmYzVhY2VjYzRjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA5MDclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwOTA3VDAzNTcxM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWVkOTAyOWJlN2QxYzZmMGQ5ZjMwYTM5OGE4OTE1MzFmNzNiMjMwYWRmNzVlMDUxZTRmNTE1NzRjYjM1ZWUxNTYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.8NbvAI330EaqsE4EC8esX1x8WoIK1N8FNwhTrUfvAVo)
+
+`**Telos**`
+
+[![](https://camo.githubusercontent.com/3e7daf0a98e8d955db1b640200f89151d1de6004769b6bf5bcab5d1f28ab055d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6d697373696f6e2d6172746963756c61746525323064656570253230636f6e7465787425323061626f75742532307468696e6773253230746861742532306d6174746572253230746f25323068756d616e732d627269676874677265656e)](https://camo.githubusercontent.com/3e7daf0a98e8d955db1b640200f89151d1de6004769b6bf5bcab5d1f28ab055d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6d697373696f6e2d6172746963756c61746525323064656570253230636f6e7465787425323061626f75742532307468696e6773253230746861742532306d6174746572253230746f25323068756d616e732d627269676874677265656e)
+
+[![](https://camo.githubusercontent.com/5b505ac1b646c67570368493f5131c09c5a5ad059d862b50e1702f6f1bcb0135/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c616e6775616765732f746f702f64616e69656c6d696573736c65722f54656c6f73)](https://camo.githubusercontent.com/5b505ac1b646c67570368493f5131c09c5a5ad059d862b50e1702f6f1bcb0135/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c616e6775616765732f746f702f64616e69656c6d696573736c65722f54656c6f73)
+
+[![](https://camo.githubusercontent.com/3e93bd19af3beb71f67b746495cb11bb7841e37e7f411d8e757714b951e126c3/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6173742d636f6d6d69742f64616e69656c6d696573736c65722f54656c6f73)](https://camo.githubusercontent.com/3e93bd19af3beb71f67b746495cb11bb7841e37e7f411d8e757714b951e126c3/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6173742d636f6d6d69742f64616e69656c6d696573736c65722f54656c6f73)
+
+[![](https://camo.githubusercontent.com/28f4d479bf0a9b033b3a3b95ab2adc343da448a025b01aefdc0fbc7f0e169eb8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d677265656e2e737667)](https://camo.githubusercontent.com/28f4d479bf0a9b033b3a3b95ab2adc343da448a025b01aefdc0fbc7f0e169eb8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d677265656e2e737667)
+
+`**Telos**` **An open-sourced framework for creating deep context about things that matter to humans.**
+
+[Purpose](https://github.com/danielmiessler/Telos/blob/main/README.md#purpose) • [Content](https://github.com/danielmiessler/Telos/blob/main/README.md#content) • [How to Contribute](https://github.com/danielmiessler/Telos/blob/main/README.md#how-to-contribute)
+
+**Navigation**
+
+- [Purpose](https://github.com/danielmiessler/Telos/blob/main/README.md#purpose)
+- [Content](https://github.com/danielmiessler/Telos/blob/main/README.md#content)
+- [How to Contribute](https://github.com/danielmiessler/Telos/blob/main/README.md#how-to-contribute)
+
+**Purpose**
+
+The purpose of the Telos project is to help entities of any size—from individuals to planets—articulate what they are about and how they're pursuing their purpose in life.
+
+It provides a structured framework for capturing the main components of an entity, including its mission, goals, problems, strategies, KPIs, etc.
+
+**Content**
+
+The current content of the Telos framework is a file called `[corporate_telos.md](https://github.com/danielmiessler/Telos/blob/main/corporate_telos.md)`, which is a Telos Context File (TCF) that contains the context for a fictional company called Alma.
+
+The file is for the company's Information Security Program, and covers everything about the program, from its mission to its goals, strategies, tech stack, remediation metrics, etc.
+
+**How to Contribute**
+
+The best way to contribute today is to add an Issue to the repo with your ideas, suggestions, or requests. And I can use that to update the file structure described in \#Content.

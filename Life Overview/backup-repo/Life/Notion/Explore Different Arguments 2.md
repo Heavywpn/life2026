@@ -1,0 +1,7 @@
+---
+Category: Writing
+Formula: Can you write an argument [for/against][subject] from multiple diverse perspectives. Before you do so, state the characteristics of the various characters?
+Prompt: Can you write an argument for the use of AI in universities from multiple diverse perspectives. Before you do so, state the characteristics of the various characters?
+More Examples: Can you write an argument for universal basic income from multiple diverse perspectives? Before you do so, state the characteristics of the various characters.Can you write an argument against nuclear power from multiple diverse perspectives? Before you do so, state the characteristics of the various characters.Can you write an argument for veganism from multiple diverse perspectives? Before you do so, state the characteristics of the various characters.Can you write an argument against homeschooling from multiple diverse perspectives? Before you do so, state the characteristics of the various characters.Can you write an argument for the use of artificial intelligence in the job market from multiple diverse perspectives? Before you do so, state the characteristics of the various characters.Can you write an argument against the privatization of water resources from multiple diverse perspectives? Before you do so, state the characteristics of the various characters.Can you write an argument for space exploration from multiple diverse perspectives? Before you do so, state the characteristics of the various characters.
+Favorite: false
+---

@@ -1,0 +1,7 @@
+---
+Category: Health
+Formula: Can you create a [number]-day meal plan for an [age group] with [health condition/dietary preference/lifestyle habit] who needs to consume [number] calories per day, but make it [preference/restriction] to [goal]?
+Prompt: Can you create a 5-day meal plan for a 15-year-old with lactose intolerance who needs to consume 2000 calories per day, but make it dairy-free and calcium-rich to support bone health?
+More Examples: Can you create a 14-day meal plan for a 40-year-old with Type 2 diabetes who needs to consume 1800 calories per day, but make it low-carb and fiber-rich to manage blood sugar levels?Can you create a 30-day meal plan for a 60-year-old with hypertension who needs to consume 1500 calories per day, but make it low-sodium and potassium-rich to manage blood pressure?Can you create a 21-day meal plan for a 25-year-old with a gluten allergy who needs to consume 2500 calories per day, but make it high-fiber and iron-rich to support gut health and prevent nutrient deficiencies?Can you create a 7-day meal plan for a 35-year-old with PCOS who needs to consume 2000 calories per day, but make it low-glycemic and anti-inflammatory to manage hormonal imbalances and improve fertility?Can you create a 14-day meal plan for a 50-year-old with celiac disease who needs to consume 1800 calories per day, but make it gluten-free and vitamin B12 rich to support gut healing and prevent nutrient deficiencies?
+Favorite: false
+---

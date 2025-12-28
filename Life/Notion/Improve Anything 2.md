@@ -1,0 +1,7 @@
+---
+Category: Productivity
+Formula: Can you provide suggestions for how I can improve [subject] with the goal of [objective]?
+Prompt: Can you provide suggestions for how I can improve my time management with the goal of increasing productivity and achieving a better work-life balance?
+More Examples: Can you provide suggestions for how I can improve the user experience on my website with the goal of reducing bounce rate and increasing customer satisfaction?Can you provide suggestions for how I can improve my team's collaboration with the goal of enhancing communication, reducing misunderstandings, and completing projects more efficiently?Can you provide suggestions for how I can improve my social media presence with the goal of increasing brand awareness and driving more engagement from my target audience?Can you provide suggestions for how I can improve my email marketing campaigns with the goal of boosting open rates, click-through rates, and ultimately, conversions?Can you provide suggestions for how I can improve my customer service with the goal of enhancing customer satisfaction, reducing response times, and increasing customer loyalty?Can you provide suggestions for how I can improve my public speaking skills with the goal of overcoming stage fright, effectively delivering my message, and connecting with my audience?Can you provide suggestions for how I can improve my work environment with the goal of fostering creativity, encouraging collaboration, and boosting employee morale and well-being?
+Favorite: true
+---

@@ -1,0 +1,4 @@
+---
+Breakfast Database:
+  - "[[Dark mofo]]"
+---

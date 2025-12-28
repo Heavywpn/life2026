@@ -1,0 +1,7 @@
+---
+Category: Writing
+Formula: Develop a [writing technique] exercise for [skill level] writers that involves [specific task], with a focus on improving [aspect of writing].
+Prompt: Develop a plot development exercise for intermediate-level writers that involves creating a story outline, with a focus on improving story structure and pacing.
+More Examples: Develop a dialogue exercise for beginner-level writers that involves writing a conversation between two characters, with a focus on improving natural-sounding dialogue.Develop a worldbuilding exercise for advanced-level writers that involves creating a detailed setting description, with a focus on improving sensory details and world consistency.Develop a sensory writing exercise for beginner-level writers that involves writing a paragraph description of a setting, with a focus on improving sensory detail usage.Develop a character dialogue exercise for intermediate-level writers that involves writing a conversation between two characters with opposing viewpoints, with a focus on improving conflict and tension.Develop a editing exercise for advanced-level writers that involves rewriting a paragraph for clarity and concision, with a focus on improving precision and flow.Develop a poetry exercise for beginner-level writers that involves writing a free-verse poem, with a focus on improving imagery and figurative language usage.
+Favorite: true
+---

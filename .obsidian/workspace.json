@@ -1,0 +1,241 @@
+{
+  "main": {
+    "id": "50744432c25bc721",
+    "type": "split",
+    "children": [
+      {
+        "id": "ce0b113fc9f39c42",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "569e2460515f36e1",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0273402954b4fead",
+    "type": "split",
+    "children": [
+      {
+        "id": "86c89aa3bb3a2331",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e606962822df7f0f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ff29b64071dab53f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7baafd8555429550",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "222f072d81b7740c",
+    "type": "split",
+    "children": [
+      {
+        "id": "008d454d136894ad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0fd2e60189df1d40",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "66170c95294e1d13",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "396983ed191d0dfa",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "9b5e019855afefc0",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-ghost",
+              "title": "all-properties"
+            }
+          },
+          {
+            "id": "97994fb1403d077a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "markdown-importer:Open format converter": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "e606962822df7f0f",
+  "lastOpenFiles": [
+    "VentKPIDashBoard/DOCKER.md",
+    "VentKPIDashBoard/DOCKER.md.tmp.15954.1766379612219",
+    "Untitled.canvas",
+    "fallout4/SETTLEMENTS.md",
+    "VentKPIDashBoard/backend/package.json.tmp.15954.1766379198971",
+    "VentKPIDashBoard/backend/prisma/migrations/20251222045228_init/migration.sql",
+    "VentKPIDashBoard/backend/prisma/migrations/migration_lock.toml",
+    "VentKPIDashBoard/backend/prisma/migrations/20251222045228_init",
+    "VentKPIDashBoard/backend/prisma/migrations",
+    "VentKPIDashBoard/CLAUDE.md",
+    "VentKPIDashBoard/CLAUDE.md.tmp.15954.1766379069721",
+    "VentKPIDashBoard/backend/logs/combined.log",
+    "VentKPIDashBoard/backend/logs/error.log",
+    "VentKPIDashBoard/backend/logs",
+    "VentKPIDashBoard/README.md",
+    "VentKPIDashBoard/PROJECT_SPEC.md",
+    "fallout4/README.md",
+    "HR/hr-tracker/README.md",
+    "MSP Contracts and Products/quotes/kurbingui-youth-development/EMAIL-kurbingui-proposal.md",
+    "MSP Contracts and Products/quotes/kurbingui-youth-development/PROPOSAL-kurbingui-youth-development.md",
+    "MSP Contracts and Products/quotes/kurbingui-youth-development/ONBOARDING-REQUIREMENTS-kurbingui-youth-development.md",
+    "presentations/active/PROPOSAL-kurbingui-youth-development.md",
+    "MSP Contracts and Products/quotes/kurbingui-youth-development/SECURITY-STACK-kurbingui-youth-development.md",
+    "MSP Contracts and Products/quotes/kurbingui-youth-development/SERVICE-SCHEDULE-kurbingui-youth-development.md",
+    "MSP Contracts and Products/quotes/kurbingui-youth-development/MSA-kurbingui-youth-development.md",
+    "MSP Contracts and Products/quotes/kurbingui-youth-development/DISCOVERY-kurbingui-youth-development.md",
+    "msp_agreement/output/MSA_Kurbingui_Youth_and_Family_Development_20251208.md",
+    "msp_agreement/output/Quote_Kurbingui_Youth_and_Family_Development_20251208.md",
+    "msp_agreement/output/SLA_Kurbingui_Youth_and_Family_Development_20251208.md",
+    "venturer-msp-toolkit/output/MSA_Test_Org_Pty_Ltd_20251208.md",
+    "venturer-msp-toolkit/output/Proposal_Test_Org_Pty_Ltd_20251208.md",
+    "venturer-msp-toolkit/output/SLA_Test_Org_Pty_Ltd_20251208.md",
+    "venturer-msp-toolkit/output/MSA_Update_Test_Pty_Ltd_20251208.md",
+    "venturer-msp-toolkit/output/SLA_Update_Test_Pty_Ltd_20251208.md",
+    "venturer-msp-toolkit/README.md",
+    "venturer-msp-toolkit/templates/meeting_prep/meeting_template.md",
+    "venturer-msp-toolkit/templates/proposals/proposal_template.md",
+    "Life Overview/backup-repo/Life/Notion Import Images/fabric-logo-gif.gif",
+    "Life/Notion Import Images/fabric-logo-gif.gif",
+    "Life Overview/backup-repo/Life/Notion Import Images/IMG_20240819_064136_702.jpg",
+    "Life/Notion Import Images/IMG_20240819_064136_702.jpg",
+    "Life Overview/backup-repo/Life/Notion Import Images/IMG_20240819_064147_379.jpg",
+    "Life/Notion Import Images/IMG_20240819_064147_379.jpg",
+    "Life Overview/backup-repo/Life/Notion Import Images/1000001126.jpg",
+    "Life/Notion Import Images/1000001126.jpg",
+    "Life Overview/backup-repo/Life/Notion Import Images/IMG_20240825_094201_978.jpg",
+    "Life/Notion Import Images/IMG_20240825_094201_978.jpg",
+    "Life Overview/backup-repo/Life/Notion Import Images/Untitled.canvas",
+    "Life Overview/backup-repo/Life/Notion Import Images/Untitled 1.canvas",
+    "Life/Notion Import Images/Untitled.canvas",
+    "Life/Notion Import Images/Untitled 1.canvas"
+  ]
+}
