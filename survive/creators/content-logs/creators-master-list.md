@@ -37,6 +37,7 @@ These creators are regularly monitored for new content and insights.
 | Thomas DeLauer | Ricky | YouTube | Health Optimization, Intermittent Fasting, Ketogenic Diets, Nutrition Science | Complete | 2025-11-16 |
 | Dr. Andrew Koutnik | Ricky | Research/Podcasts | Metabolic Health, Athletic Performance, Ketogenic Diets, Type 1 Diabetes | Complete | 2025-11-16 |
 | Ben Vallack | Ricky | YouTube | Unix Philosophy, Anti-Consumerism, Digital Minimalism, Tool Philosophy, Workflow Optimization | Complete | 2025-11-16 |
+| Gabe Bult | Ricky | YouTube | Minimalism, Personal Finance, Productivity, Habits, Financial Independence | Complete | 2025-12-28 |
 
 ## Medium Priority Creators
 Periodic check-ins for relevant content.

@@ -621,6 +621,42 @@ Use `grep` or your editor's search function with these tags to quickly find crea
 
 ---
 
+### Gabe Bult
+**Profile:** `profiles/gabe-bult.md`
+
+**Focus Areas:** #minimalism #personal-finance #productivity #habits #financial-independence #anti-consumerism
+**Platforms:** YouTube, Website (gbult.co)
+**Background:** 7+ years minimalism practice, 8 years real estate agent, 100+ finance books read
+**Location:** USA
+
+**Primary Value:**
+- Tested 200+ minimalist habits, distilled to 9 that work
+- Simple investing philosophy (index funds over active trading)
+- 77% rule (wealthy watch <1hr TV, poor >1hr TV)
+- Phone-free zones for mental clarity
+- 5-to-9 productivity (use evenings to build, not consume)
+- Financial independence through minimalism
+
+**Content Types:**
+- Long-form educational videos (8-15 min)
+- Habit testing and validation
+- Personal finance frameworks
+- Productivity systems
+- Real estate and income stream strategies
+
+**Project Fit:** ⭐⭐⭐⭐ HIGH for Mental Resilience (Focus Area #6) and Financial Preparedness
+
+**Key Content Analyzed:**
+- I Tried 200 Minimalist Habits (Here Are 9 That ACTUALLY Work)
+- See `creators/summaries/gabe-bult-200-minimalist-habits-9-that-work.md`
+- Key habits: Simple routines, boring finance, 77% rule, phone-free zones, 5-minute cleanup
+
+**Subscribers:** Growing YouTube presence
+**Teaching Style:** Clear, honest, tested personally, admits failures
+**Unique Trait:** 7 years of personal experimentation - tested and discarded hundreds of habits, keeps only what works. Lost money on meme coins, learned to keep investing simple.
+
+---
+
 ## Creator Comparison Matrix
 
 | Creator | Focus | Technical Depth | Beginner-Friendly | Tactical/Prep | Project Priority |
@@ -640,6 +676,7 @@ Use `grep` or your editor's search function with these tags to quickly find crea
 | Unknown Tech YouTuber | Self-Hosting/Budget Tech | Medium-High | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ High |
 | Cajun Koi Academy | Dopamine/Discipline | Medium | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ Core |
 | Cyber CPU | Windows Privacy/Debloat | Medium | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ High |
+| Gabe Bult | Minimalism/Finance | Low-Medium | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ High |
 
 ---
 
@@ -803,10 +840,10 @@ When adding new content creators to the project:
 
 ## Index Statistics
 
-- **Total Creators Tracked:** 15 (Mike Glover, Network Chuck, Linus Sebastian, Buff Dudes, Jocko Willink, David Bombal, Griffin Glynn, Micah Hoffman, Thomas DeLauer, Dr. Andrew Koutnik, Ben Vallack, Weedy Garden, Unknown Tech YouTuber, Cajun Koi Academy, Cyber CPU)
-- **Profiles Created:** 15
+- **Total Creators Tracked:** 16 (Mike Glover, Network Chuck, Linus Sebastian, Buff Dudes, Jocko Willink, David Bombal, Griffin Glynn, Micah Hoffman, Thomas DeLauer, Dr. Andrew Koutnik, Ben Vallack, Weedy Garden, Unknown Tech YouTuber, Cajun Koi Academy, Cyber CPU, Gabe Bult)
+- **Profiles Created:** 16
 - **Focus Areas Covered:** Survival, Tactical, Cybersecurity, Networking, Tech Infrastructure, Fitness, Nutrition, Manual Labor, OSINT/Investigation, Career Development, Leadership, Mental Resilience, Health Optimization, Metabolic Health, Sports Nutrition Research, Anti-Consumerism, Tool Philosophy, Digital Minimalism, Unix Philosophy, Self-Hosting, Budget Technology, Media Servers, Cost Optimization, Open Source Software, Permaculture, Composting, Organic Gardening, Food Forest, Biodynamic Agriculture, Community Food Systems, Dopamine Management, Discipline Systems, Identity-Based Change, Reward System Optimization, Windows Privacy, Debloating, System Optimization
-- **Last Updated:** 2025-11-29
+- **Last Updated:** 2025-12-28
 
 ---
 
@@ -946,8 +983,20 @@ When adding new content creators to the project:
 **"I want to harden Windows privacy after updates reset my settings"**
 → Cyber CPU (CrapFixer saves settings to INI file, re-run after Windows Update to restore privacy settings)
 
+**"I want to build simple habits that actually work for minimalism"**
+→ Gabe Bult (tested 200+ habits over 7 years, distilled to 9 that work: simple routines, boring finance, 77% rule)
+
+**"I want to improve my finances with minimal complexity"**
+→ Gabe Bult (index funds beat 90% of managed funds, invest in what you understand, Simple Path to Wealth approach)
+
+**"I want to use my evenings productively instead of consuming"**
+→ Gabe Bult (5-to-9 productivity: 77% of poor people watch >1hr TV/day, convert evenings to building income streams)
+
+**"I want to create phone-free zones for mental clarity"**
+→ Gabe Bult (designated zones: bed, sauna, cold plunge - no phone access for thinking/processing)
+
 ---
 
-**Last Updated:** 2025-11-29
+**Last Updated:** 2025-12-28
 **Maintained By:** Rick
 **Project:** Survival Knowledge Base
