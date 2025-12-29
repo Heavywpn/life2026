@@ -119,7 +119,7 @@
 | 3 | The Toilet Paper Entrepreneur | 2008 | Entrepreneurship | TBD | Not yet read | Starting with limited resources |
 | 4 | Surge | 2011 | Marketing/Sales | TBD | Not yet read | Customer acquisition strategies |
 | 5 | Clockwork | 2018 (Revised 2022) | Systems/Processes | TBD | Not yet read | Business systemization, run without owner |
-| 6 | Fix This Next | 2020 | Business Strategy | TBD | Not yet read | Business hierarchy of needs |
+| 6 | Fix This Next | 2020 | Business Strategy | Kristyn | ✅ Read | Life-changing - Business Hierarchy of Needs (BHN), 5 levels, 25 diagnostic questions, Vital Need identification |
 | 7 | Get Different | 2021 | Marketing | TBD | Not yet read | Marketing innovation |
 | 8 | All In | 2023 | Business | TBD | Not yet read | Latest release |
 
@@ -132,6 +132,7 @@
 | Title | Type | Link | Topics | Analysis Status | Rating |
 |-------|------|------|--------|-----------------|--------|
 | Profit First | Book | https://mikemichalowicz.com/profit-first/ | Cash management, 5 accounts, profit-first formula | Complete | 5/5 |
+| Fix This Next | Book | https://fixthisnext.com/ | Business Hierarchy of Needs, 5 levels, 25 questions, Vital Need diagnosis | Complete | 5/5 |
 
 ### Skills Taught/Demonstrated
 | Skill | Category | Source | Validated | Field Test Date | Notes |
@@ -139,6 +140,10 @@
 | Profit First System | Financial Management | Profit First book | Yes (1M+ companies) | Ongoing | 5 bank accounts, allocation percentages, twice-monthly transfers |
 | Cash Flow Management | Business Finance | Profit First | Yes | Ongoing | Behavioral approach to cash discipline |
 | Target Allocation Percentages | Financial Planning | Profit First | Yes | Ongoing | Gradual movement toward optimal ratios |
+| Business Hierarchy of Needs (BHN) | Business Strategy | Fix This Next | Yes | Ongoing | 5 levels: Sales, Profit, Order, Impact, Legacy |
+| Vital Need Identification | Business Diagnosis | Fix This Next | Yes | Ongoing | 25 questions to pinpoint single most important fix |
+| Sequential Problem Solving | Business Strategy | Fix This Next | Yes | Ongoing | Fix one thing at a time, bottom-up approach |
+| Survival Trap Avoidance | Business Psychology | Fix This Next | Yes | Ongoing | Don't jump to higher levels before foundations stable |
 
 ## Cross-Reference with Experience
 
@@ -230,24 +235,34 @@ Mike Michalowicz provides a revolutionary approach to business profitability. Th
 
 ### Profile History
 - **2025-11-09**: Initial profile created for Kristyn's content
+- **2025-12-30**: Added Fix This Next book analysis, updated skills and frameworks
 
 ### Statistics
 - **First content consumed**: Profit First (book)
 - **Total books authored**: 9 (Penguin Random House)
-- **Books analyzed**: 1 (Profit First)
-- **Life-changing designation**: Yes - Profit First (5/5 for Kristyn)
+- **Books analyzed**: 2 (Profit First, Fix This Next)
+- **Life-changing designation**: Yes - Profit First (5/5), Fix This Next (5/5) for Kristyn
 - **Companies using Profit First**: 1+ million worldwide
+- **Skills extracted**: 7 (Profit First system, cash flow management, TAPs, BHN, Vital Need identification, sequential problem solving, Survival Trap avoidance)
 
 ---
 
 ## Quick Reference
-**Primary Value**: Profit First cash management system - flip accounting formula (Sales - Profit = Expenses), 5 bank accounts, behavioral economics approach to financial discipline
+**Primary Value**: Profit First cash management + Fix This Next business diagnosis - complete system for financial health and strategic prioritization
 **Best Content**:
-- **Profit First** (foundational, life-changing)
-- Clockwork (business systemization)
-- Fix This Next (business hierarchy of needs)
-**Key Frameworks**: Profit First (5 accounts, TAPs, twice-monthly transfers), Small Plates Principle, Start Small (1% profit)
+- **Profit First** (foundational, life-changing) - Cash management system
+- **Fix This Next** (diagnostic, life-changing) - Business Hierarchy of Needs, what to fix first
+- Clockwork (business systemization) - Run business without owner
+**Key Frameworks**:
+- Profit First: 5 accounts, TAPs, twice-monthly transfers, Small Plates Principle
+- Fix This Next: Business Hierarchy of Needs (5 levels), 25 diagnostic questions, Vital Need identification
 **Credibility**: Extremely high (1M+ companies, personal experience, WSJ/MSNBC, Simon Sinek endorsement)
-**Project Fit**: High for Kristyn - business/financial management, Venturer Technology MSP cash flow
-**Update Frequency**: Book releases (periodic), Profit First system implementation (ongoing)
+**Project Fit**: High for Kristyn - business/financial management, Venturer Technology MSP strategy and cash flow
+**Update Frequency**: Book releases (periodic), implementation (ongoing)
 **For**: **Kristyn** (business and financial management focus)
+
+**The Michalowicz System**:
+1. **Fix This Next** - Diagnose what level/need requires attention
+2. **Profit First** - If Level 2 (Profit) is the issue
+3. **Clockwork** - If Level 3 (Order) is the issue
+4. Repeat - Continuous improvement cycle

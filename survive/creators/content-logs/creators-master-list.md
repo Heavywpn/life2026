@@ -38,6 +38,7 @@ These creators are regularly monitored for new content and insights.
 | Dr. Andrew Koutnik | Ricky | Research/Podcasts | Metabolic Health, Athletic Performance, Ketogenic Diets, Type 1 Diabetes | Complete | 2025-11-16 |
 | Ben Vallack | Ricky | YouTube | Unix Philosophy, Anti-Consumerism, Digital Minimalism, Tool Philosophy, Workflow Optimization | Complete | 2025-11-16 |
 | Gabe Bult | Ricky | YouTube | Minimalism, Personal Finance, Productivity, Habits, Financial Independence | Complete | 2025-12-28 |
+| Christina Mychas | Ricky | YouTube | Intentional Living, Intentional Spending, Minimalism, Consumer Psychology, Quality over Quantity | Complete | 2025-12-30 |
 
 ## Medium Priority Creators
 Periodic check-ins for relevant content.
@@ -112,13 +113,14 @@ Creators to research and potentially add to tracking.
 
 ### Mike Michalowicz (Kristyn)
 - **Profile Created**: 2025-11-09
-- **Content Analyzed**: 1 book (Profit First)
-- **Skills Extracted**: Profit First cash management (5 accounts, TAPs, twice-monthly transfers), behavioral economics (small plates principle), debt eradication, quarterly profit distributions
-- **Books Authored**: 9 (Penguin Random House) - 1 life-changing for Kristyn (Profit First 5/5)
+- **Content Analyzed**: 2 books (Profit First, Fix This Next)
+- **Skills Extracted**: 7 (Profit First cash management, TAPs, debt eradication, Business Hierarchy of Needs, Vital Need identification, sequential problem solving, Survival Trap avoidance)
+- **Books Authored**: 9 (Penguin Random House) - 2 life-changing for Kristyn (Profit First 5/5, Fix This Next 5/5)
 - **System Users**: 1+ million companies use Profit First methodology
-- **Life-Changing Reason**: Revolutionary cash management system (flip accounting formula: Sales - Profit = Expenses)
-- **Field Tests Inspired**: Profit First implementation (5 accounts, twice-monthly transfers, quarterly distributions, TAP progression)
-- **Last Content Check**: 2025-11-09
+- **Life-Changing Reason**: Profit First = revolutionary cash management (Sales - Profit = Expenses). Fix This Next = diagnostic framework (5 levels × 5 needs = 25 questions to identify Vital Need)
+- **Field Tests Inspired**: Profit First implementation (5 accounts, TAPs, distributions), Fix This Next assessment (25 questions, Vital Need diagnosis)
+- **The Michalowicz System**: Fix This Next diagnoses the level → Profit First fixes Level 2 → Clockwork fixes Level 3
+- **Last Content Check**: 2025-12-30
 - **For**: **Kristyn** (business and financial management)
 
 ### Mark Valencia - Self Sufficient Me (Shared - Ricky & Kristyn)
@@ -238,6 +240,23 @@ Creators to research and potentially add to tracking.
 - **Last Content Check**: 2025-11-17
 - **For**: **Ricky** (tool philosophy, anti-consumerism, intentional living, digital self-sufficiency, preparedness mindset, EDC optimization)
 
+### Christina Mychas
+- **Profile Created**: 2025-12-30
+- **Content Analyzed**: 1 video ("10 Minimalist Rules That ACTUALLY Work")
+- **Skills Extracted**: 10 (buy nice or buy twice, hell yes or no, declutter before organizing, use it or lose it, wishlist and wait, place for everything, don't buy a problem, have a why, spark joy rule, can't pay in full = can't afford)
+- **Background**: 2-2.5 years practicing minimalism, transitioned to "minimalist-ish" lifestyle, small space living
+- **YouTube Channel**: Christina Mychas (Intentional Living)
+- **Social Media**: TikTok/Instagram ("You're Too Broke to Buy Cheap" series), Patreon
+- **Focus**: Intentional living, intentional spending, consumer psychology, quality over quantity
+- **Key Philosophy**: "The key to minimalism is to just live with intentionality and think before you buy"
+- **Unique Value**: Female perspective on minimalism, consumer psychology focus, honest about minimalism limitations
+- **Credibility Rating**: 4/5 (personal experience, lives in small space, honest about limitations)
+- **Field Tests Inspired**: 5+ (wishlist method, declutter-first approach, "why" journaling, hell yes or no decisions, quality purchasing)
+- **Books Discovered**: 0 (references Marie Kondo's Spark Joy concept)
+- **Comparison**: Complements Gabe Bult - similar philosophy with consumer psychology depth
+- **Last Content Check**: 2025-12-30
+- **For**: **Ricky** (intentional spending, mental resilience, anti-consumerism)
+
 ### Max in the Nest (Shared - Ricky & Kristyn)
 - **Profile Created**: 2025-11-17
 - **Content Analyzed**: 1 video ("Deck Build - Australian Rainforest Cabin")
@@ -297,6 +316,8 @@ Creators to research and potentially add to tracking.
 ### Anti-Consumerism & Intentional Living
 - Ben Vallack (Unix philosophy for life, convergence vs. counterparts, purpose-built tools, DIY software, digital self-sufficiency)
 - Tim Ferriss (intentional lifestyle design, minimum effective dose, questioning assumptions)
+- Gabe Bult (minimalism, anti-consumption, 77% rule, simple finances, phone-free zones)
+- Christina Mychas (intentional spending, consumer psychology, "why before you buy", wishlist method, quality over quantity)
 
 ### Tool Philosophy & EDC
 - Ben Vallack (Unix philosophy: do one thing well, composability, fast one-handed access criteria)

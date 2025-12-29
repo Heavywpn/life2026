@@ -25,6 +25,7 @@ To build a personal knowledge base of actionable survival skills that bridge mil
 7. **Cyber Security & Digital OPSEC** - Digital preparedness, online security, privacy
 8. **Fitness & Conditioning** - Tactical fitness, functional strength, endurance training
 9. **Nutrition & Food Preparedness** - Performance nutrition, food storage, field meal planning
+10. **Home & Lifestyle Management** - Minimalism, intentional living, home automation, quality over quantity
 
 ## Directory Structure
 ```
@@ -238,6 +239,51 @@ cat skills/nutrition/nutrition-preparedness-guide.md
 # Search for specific topics
 grep -i "rucking" skills/fitness/tactical-fitness-framework.md
 grep -i "cold weather" skills/nutrition/nutrition-preparedness-guide.md
+```
+
+## Home & Lifestyle Management
+
+Comprehensive approach to intentional living, minimalism, and home automation as empty nesters.
+
+### Home Lifestyle Management Guide
+**Location:** `resources/home-lifestyle-management.md`
+
+**Philosophy:**
+- "Less stuff, always quality" - Buy nice or buy twice
+- "The process of doing simple things makes a better life" - Manual tasks with intention
+- "Automate the mundane, engage with the meaningful" - Technology for repetitive tasks
+- All automation must integrate with Home Assistant
+
+**Key Frameworks:**
+- **Christina Mychas** - 10 Minimalist Rules (intentional spending, declutter before organizing)
+- **Gabe Bult** - 9 Minimalist Habits (clutter-free zones, 5-minute reset)
+- **Ben Vallack** - Unix philosophy (quality single-purpose tools)
+
+**Covers:**
+- Decluttering plan and priority zones
+- Home automation with HA integration
+- Quality purchases tracker (wishlist and wait method)
+- Manual skills development (whetstone sharpening)
+- Maintenance schedules (daily/weekly/monthly/quarterly)
+
+**Current Focus:**
+1. Decluttering (empty nester transition)
+2. Robot vacuum research (HA integration required, white carpet)
+3. Knife sharpening skill (Shapton whetstone ordered, March 2026)
+
+**Tags:** #minimalism #intentional-living #home-automation #quality-over-quantity #empty-nester
+
+**Quick Access:**
+```bash
+# View lifestyle management guide
+cat resources/home-lifestyle-management.md
+
+# View knife sharpening skill
+cat skills/tools/whetstone-knife-sharpening.md
+
+# View minimalism creators
+cat creators/profiles/christina-mychas.md
+cat creators/profiles/gabe-bult.md
 ```
 
 ## Health Optimization & Longevity

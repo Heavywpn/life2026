@@ -75,7 +75,10 @@
 
 ## Tools & Equipment
 ### Maintenance
-- [ ] Knife sharpening
+- [x] **Whetstone Knife Sharpening** - `tools/whetstone-knife-sharpening.md`
+  - Manual Japanese whetstone technique (400-8000 grit progression)
+  - Philosophy: "The process of doing simple things makes a better life"
+  - Equipment: Kerye Professional Whetstone Set (~$50)
 - [ ] Tool repair
 - [ ] Equipment improvisation
 

@@ -83,6 +83,7 @@ Books that shaped core philosophy or decision-making frameworks.
 |------------|--------|-----|-----------|---------------|-------------|--------|
 | Traction | Gino Wickman | Ricky | [User date] | 5/5 | Rocks (90-day goals) + L10 (weekly review) + IDS (systematic problem-solving) = execution discipline that works. Real-world implementation via TRU Methods coaching and Venturer Technology business plan (both EOS-based). | Active Application |
 | Profit First | Mike Michalowicz | **Kristyn** | [Kristyn date] | 5/5 | Flip accounting formula: Sales - Profit = Expenses (not Sales - Expenses = Profit). 5 bank accounts (Income, Profit, Owner's Pay, Tax, Opex), behavioral economics (small plates principle), twice-monthly transfers (10th & 25th), quarterly profit distributions. Used by 1M+ companies. Integrates with Traction/EOS for complete business system. | Active Application |
+| Fix This Next | Mike Michalowicz | **Kristyn** | [Kristyn date] | 5/5 | Business Hierarchy of Needs (BHN): 5 levels (Sales, Profit, Order, Impact, Legacy) × 5 core needs = 25 diagnostic questions. Identifies the Vital Need (single most important thing to fix). Sequential problem-solving (fix foundations before advancing). Avoids "Survival Trap" of chasing symptoms. Companion to Profit First - diagnoses which level needs work. | Active Application |
 
 ### Health & Fitness
 Books that transformed approach to physical performance or health optimization.
@@ -450,21 +451,21 @@ Books being considered for life-changing status (need more time/application).
 - Mental Resilience & Performance: 1 (Jack Reacher Series - 29 books, Shared)
 - Survival & Preparedness: 0
 - Learning & Skill Acquisition: 1 (The 4-Hour Chef, Ricky)
-- Philosophy & Decision-Making: 2 (Traction - Ricky, Profit First - Kristyn)
+- Philosophy & Decision-Making: 3 (Traction - Ricky, Profit First - Kristyn, Fix This Next - Kristyn)
 - Health & Fitness: 1 (The 4-Hour Body, Ricky)
 - Leadership & Team Building: 1 (Traction, Ricky)
 - Technical Skills: 0
 - Self-Sufficiency & Homesteading: 1 (The 4-Hour Chef, Ricky)
 
-**Total Life-Changing Books:** 5 unique entries (Note: The 4-Hour Chef and Traction each count in 2 categories. Jack Reacher Series = 29 books counted as 1 series entry.)
+**Total Life-Changing Books:** 6 unique entries (Note: The 4-Hour Chef and Traction each count in 2 categories. Jack Reacher Series = 29 books counted as 1 series entry.)
 
 **Content Attribution:**
 - **Ricky**: 3 books (The 4-Hour Body, The 4-Hour Chef, Traction)
-- **Kristyn**: 1 book (Profit First)
+- **Kristyn**: 2 books (Profit First, Fix This Next)
 - **Shared**: 1 series (Jack Reacher Series - 29 books)
 
 ### Impact Distribution
-- 5/5 Transformative: 5 (The 4-Hour Body, The 4-Hour Chef, Traction, Jack Reacher Series, Profit First)
+- 5/5 Transformative: 6 (The 4-Hour Body, The 4-Hour Chef, Traction, Jack Reacher Series, Profit First, Fix This Next)
 - 4/5 Highly Influential: 0
 - 3/5 Valuable Impact: 0
 - 2/5 Moderate Impact: 0 (consider removing from list)
@@ -476,7 +477,7 @@ Track which creators recommended which life-changing books:
 - Tim Ferriss: 2 (The 4-Hour Body - author/Ricky, The 4-Hour Chef - author/Ricky)
 - Gino Wickman: 1 (Traction - author/Ricky)
 - Lee Child: 1 (Jack Reacher Series - author, 29 books, Shared with Kristyn)
-- Mike Michalowicz: 1 (Profit First - author/Kristyn)
+- Mike Michalowicz: 2 (Profit First - author/Kristyn, Fix This Next - author/Kristyn)
 - Ben Vallack: 2 (Deep Work by Cal Newport - recommended/Ricky, Digital Minimalism by Cal Newport - recommended/Ricky)
 - Jocko Willink: 0
 - Cal Newport: 2 (Deep Work - author/Ricky, Digital Minimalism - author/Ricky)

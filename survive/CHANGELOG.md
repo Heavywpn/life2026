@@ -1,5 +1,81 @@
 # Survival Knowledge Project - Changelog
 
+## [2.1.0] - 2025-12-30
+
+### Added - Home & Lifestyle Management Focus
+
+#### New Focus Area
+- **Home & Lifestyle Management** (Focus Area #10) - Minimalism, intentional living, home automation, quality over quantity
+
+#### New Files Created
+- `resources/home-lifestyle-management.md` - Comprehensive guide for empty nester transition
+  - Minimalism frameworks (Christina Mychas 10 Rules, Gabe Bult 9 Habits)
+  - Home automation requirements (Home Assistant integration)
+  - Quality purchases tracker with wishlist system
+  - Decluttering plan and priority zones
+  - Maintenance schedules (daily/weekly/monthly/quarterly)
+
+- `skills/tools/whetstone-knife-sharpening.md` - Complete knife sharpening skill guide
+  - Japanese whetstone technique (400-8000 grit progression)
+  - Step-by-step process with angle guides
+  - Common mistakes and solutions
+  - Maintenance schedules
+  - Philosophy: "The process of doing simple things makes a better life"
+
+- `creators/profiles/christina-mychas.md` - Minimalism content creator profile
+  - 10 Minimalist Rules That ACTUALLY Work analysis
+  - Intentional spending, consumer psychology focus
+  - Comparison with Gabe Bult approach
+
+- `creators/summaries/christina-mychas-10-minimalist-rules-that-work.md` - Video analysis
+  - Complete breakdown of all 10 rules
+  - Implementation checklists (daily/weekly/monthly)
+  - Integration with survival mindset
+
+- `books/life-changing/fix-this-next-analysis.md` - Mike Michalowicz book analysis
+  - Business Hierarchy of Needs (BHN) framework
+  - 5 levels × 5 core needs = 25 diagnostic questions
+  - Vital Need identification process
+  - Integration with Profit First and EOS/Traction
+
+#### Updated Files
+- `README.md` - Added Home & Lifestyle Management section with quick access commands
+- `skills/INDEX.md` - Added whetstone knife sharpening skill (marked as guide available)
+- `creators/content-logs/creators-master-list.md` - Added Christina Mychas, updated Mike Michalowicz
+- `creators/profiles/mike-michalowicz.md` - Added Fix This Next book analysis and skills
+- `books/life-changing/LIFE-CHANGING-BOOKS-MASTER.md` - Added Fix This Next (now 6 life-changing books)
+
+#### Philosophy Additions
+- "Less stuff, always quality" - Buy nice or buy twice principle
+- "The process of doing simple things makes a better life" - Intentional manual tasks
+- "Automate the mundane, engage with the meaningful" - Strategic automation
+- Home Assistant integration required for all automation purchases
+
+#### Equipment Ordered
+- **Shapton Professional 1000 Grit Whetstone** (~$46 AUD)
+  - Ordered: December 2025
+  - Delivery: Early March 2026
+  - Japanese quality, splash-and-go, lifetime tool
+
+#### Research Initiated
+- Robot vacuum for large carpeted home (white carpet)
+  - Requirement: Home Assistant integration
+  - Top candidates: Roborock S8 MaxV Ultra, Qrevo Curv, Dreame L40 Ultra
+  - Decision: Pending
+
+### Changed
+- Core Focus Areas: Now 10 (was 9) - added Home & Lifestyle Management
+- Mike Michalowicz: Now 2 life-changing books (Profit First + Fix This Next)
+- Kristyn content: Now 2 books tracked
+
+### Statistics Update
+- **Life-Changing Books**: 6 total (was 5)
+- **Creator Profiles**: Added Christina Mychas
+- **Skills Guides**: Added whetstone knife sharpening
+- **New Focus Area**: Home & Lifestyle Management (#10)
+
+---
+
 ## [2.0.0] - 2025-11-04
 
 ### Added - Content Creator Tracking System

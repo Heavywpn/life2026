@@ -34,8 +34,8 @@ CONFIG_DIR = TELOS_ROOT / ".claude" / "config"
 DATA_DIR = TELOS_ROOT / ".claude" / "data"
 ENV_FILE = CONFIG_DIR / "integrations.env"
 
-# WHOOP API endpoints
-WHOOP_API_BASE = "https://api.prod.whoop.com/developer/v1"
+# WHOOP API endpoints (V2 - V1 deprecated October 2025)
+WHOOP_API_BASE = "https://api.prod.whoop.com/developer/v2"
 
 
 def load_env():
@@ -60,7 +60,7 @@ def get_headers(access_token: str) -> dict:
 
 
 def fetch_recovery(access_token: str, start_date: str, end_date: str) -> list:
-    """Fetch recovery scores for date range"""
+    """Fetch recovery scores for date range (V2 API)"""
     url = f"{WHOOP_API_BASE}/recovery"
     params = {
         "start": start_date,
@@ -77,8 +77,8 @@ def fetch_recovery(access_token: str, start_date: str, end_date: str) -> list:
 
 
 def fetch_sleep(access_token: str, start_date: str, end_date: str) -> list:
-    """Fetch sleep data for date range"""
-    url = f"{WHOOP_API_BASE}/sleep"
+    """Fetch sleep data for date range (V2 API - activity/sleep)"""
+    url = f"{WHOOP_API_BASE}/activity/sleep"
     params = {
         "start": start_date,
         "end": end_date
@@ -94,8 +94,8 @@ def fetch_sleep(access_token: str, start_date: str, end_date: str) -> list:
 
 
 def fetch_workout(access_token: str, start_date: str, end_date: str) -> list:
-    """Fetch workout/strain data for date range"""
-    url = f"{WHOOP_API_BASE}/workout"
+    """Fetch workout/strain data for date range (V2 API - activity/workout)"""
+    url = f"{WHOOP_API_BASE}/activity/workout"
     params = {
         "start": start_date,
         "end": end_date
@@ -128,7 +128,7 @@ def fetch_cycle(access_token: str, start_date: str, end_date: str) -> list:
 
 
 def format_for_journal(data: dict) -> str:
-    """Format WHOOP data for journal inclusion"""
+    """Format WHOOP data for journal inclusion (V2 API)"""
     output = []
     output.append("## WHOOP Data")
     output.append(f"*Synced: {datetime.now().strftime('%Y-%m-%d %H:%M')}*\n")
@@ -138,30 +138,38 @@ def format_for_journal(data: dict) -> str:
         latest = data["recovery"][0] if data["recovery"] else None
         if latest:
             score = latest.get("score", {})
+            recovery_pct = score.get('recovery_score', 'N/A')
+            hrv = score.get('hrv_rmssd_milli', 0)
+            rhr = score.get('resting_heart_rate', 'N/A')
+            spo2 = score.get('spo2_percentage', 'N/A')
+
             output.append("### Recovery")
-            output.append(f"- **Recovery Score:** {score.get('recovery_score', 'N/A')}%")
-            output.append(f"- **HRV:** {score.get('hrv_rmssd_milli', 'N/A')} ms")
-            output.append(f"- **Resting HR:** {score.get('resting_heart_rate', 'N/A')} bpm")
-            output.append(f"- **SPO2:** {score.get('spo2_percentage', 'N/A')}%")
+            output.append(f"- **Recovery Score:** {recovery_pct}%")
+            output.append(f"- **HRV:** {round(hrv, 1) if hrv else 'N/A'} ms")
+            output.append(f"- **Resting HR:** {int(rhr) if rhr != 'N/A' else rhr} bpm")
+            output.append(f"- **SpO2:** {spo2}%")
             output.append("")
 
-    # Latest sleep
+    # Latest sleep (V2 has stage_summary nested)
     if data.get("sleep"):
         latest = data["sleep"][0] if data["sleep"] else None
         if latest:
             score = latest.get("score", {})
+            stage_summary = score.get("stage_summary", {})
+
+            # Calculate hours from milliseconds (V2 structure)
+            total_in_bed_ms = stage_summary.get("total_in_bed_time_milli", 0)
+            awake_ms = stage_summary.get("total_awake_time_milli", 0)
+            actual_sleep_ms = total_in_bed_ms - awake_ms if total_in_bed_ms else 0
+
+            total_hrs = round(total_in_bed_ms / 3600000, 1) if total_in_bed_ms else "N/A"
+            sleep_hrs = round(actual_sleep_ms / 3600000, 1) if actual_sleep_ms else "N/A"
+
             output.append("### Sleep")
-
-            # Calculate hours from milliseconds
-            total_ms = score.get("total_in_bed_time_milli", 0)
-            sleep_ms = score.get("total_sleep_time_milli", 0)
-            total_hrs = round(total_ms / 3600000, 1) if total_ms else "N/A"
-            sleep_hrs = round(sleep_ms / 3600000, 1) if sleep_ms else "N/A"
-
             output.append(f"- **Sleep Performance:** {score.get('sleep_performance_percentage', 'N/A')}%")
             output.append(f"- **Time in Bed:** {total_hrs} hrs")
             output.append(f"- **Actual Sleep:** {sleep_hrs} hrs")
-            output.append(f"- **Sleep Efficiency:** {score.get('sleep_efficiency_percentage', 'N/A')}%")
+            output.append(f"- **Sleep Efficiency:** {round(score.get('sleep_efficiency_percentage', 0), 1)}%")
             output.append("")
 
     # Latest strain/cycle
@@ -169,21 +177,23 @@ def format_for_journal(data: dict) -> str:
         latest = data["cycles"][0] if data["cycles"] else None
         if latest:
             score = latest.get("score", {})
+            strain = score.get('strain', 0)
             output.append("### Strain")
-            output.append(f"- **Day Strain:** {score.get('strain', 'N/A')}")
+            output.append(f"- **Day Strain:** {round(strain, 1) if strain else 'N/A'}")
             output.append(f"- **Average HR:** {score.get('average_heart_rate', 'N/A')} bpm")
             output.append(f"- **Max HR:** {score.get('max_heart_rate', 'N/A')} bpm")
             output.append(f"- **Calories:** {score.get('kilojoule', 0) * 0.239:.0f} kcal")
             output.append("")
 
-    # Workouts
+    # Workouts (V2 has sport_name)
     if data.get("workouts"):
         output.append("### Workouts")
-        for workout in data["workouts"][:3]:  # Last 3 workouts
+        for workout in data["workouts"][:5]:  # Last 5 workouts
             score = workout.get("score", {})
-            sport = workout.get("sport_id", "Unknown")
-            output.append(f"- **{sport}:** Strain {score.get('strain', 'N/A')}, "
-                         f"{score.get('kilojoule', 0) * 0.239:.0f} kcal")
+            sport = workout.get("sport_name", "Activity").title()
+            strain = round(score.get('strain', 0), 1)
+            cals = score.get('kilojoule', 0) * 0.239
+            output.append(f"- **{sport}:** Strain {strain}, {cals:.0f} kcal")
         output.append("")
 
     return "\n".join(output)
