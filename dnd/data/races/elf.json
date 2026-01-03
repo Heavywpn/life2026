@@ -1,0 +1,99 @@
+{
+  "id": "elf",
+  "name": "Elf",
+  "description": "Elves are a magical people of otherworldly grace, living in the world but not entirely part of it.",
+  "abilityScoreIncreases": {
+    "dexterity": 2
+  },
+  "size": "Medium",
+  "speed": 30,
+  "darkvision": 60,
+  "languages": ["Common", "Elvish"],
+  "traits": [
+    {
+      "name": "Keen Senses",
+      "description": "You have proficiency in the Perception skill."
+    },
+    {
+      "name": "Fey Ancestry",
+      "description": "You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+    },
+    {
+      "name": "Trance",
+      "description": "Elves don't need to sleep. Instead, they meditate deeply for 4 hours a day."
+    }
+  ],
+  "skillProficiencies": ["perception"],
+  "subraces": [
+    {
+      "id": "high-elf",
+      "name": "High Elf",
+      "abilityScoreIncreases": {
+        "intelligence": 1
+      },
+      "traits": [
+        {
+          "name": "Elf Weapon Training",
+          "description": "You have proficiency with longswords, shortswords, shortbows, and longbows."
+        },
+        {
+          "name": "Cantrip",
+          "description": "You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it."
+        },
+        {
+          "name": "Extra Language",
+          "description": "You can speak, read, and write one extra language of your choice."
+        }
+      ],
+      "weaponProficiencies": ["longsword", "shortsword", "shortbow", "longbow"]
+    },
+    {
+      "id": "wood-elf",
+      "name": "Wood Elf",
+      "abilityScoreIncreases": {
+        "wisdom": 1
+      },
+      "traits": [
+        {
+          "name": "Elf Weapon Training",
+          "description": "You have proficiency with longswords, shortswords, shortbows, and longbows."
+        },
+        {
+          "name": "Fleet of Foot",
+          "description": "Your base walking speed increases to 35 feet."
+        },
+        {
+          "name": "Mask of the Wild",
+          "description": "You can attempt to hide even when you are only lightly obscured by foliage, rain, snow, mist, and other natural phenomena."
+        }
+      ],
+      "weaponProficiencies": ["longsword", "shortsword", "shortbow", "longbow"]
+    },
+    {
+      "id": "dark-elf",
+      "name": "Dark Elf (Drow)",
+      "abilityScoreIncreases": {
+        "charisma": 1
+      },
+      "traits": [
+        {
+          "name": "Superior Darkvision",
+          "description": "Your darkvision has a radius of 120 feet."
+        },
+        {
+          "name": "Sunlight Sensitivity",
+          "description": "You have disadvantage on attack rolls and Perception checks when you or your target is in direct sunlight."
+        },
+        {
+          "name": "Drow Magic",
+          "description": "You know the dancing lights cantrip. At 3rd level, you can cast faerie fire once per day. At 5th level, you can cast darkness once per day."
+        },
+        {
+          "name": "Drow Weapon Training",
+          "description": "You have proficiency with rapiers, shortswords, and hand crossbows."
+        }
+      ],
+      "weaponProficiencies": ["rapier", "shortsword", "hand crossbow"]
+    }
+  ]
+}

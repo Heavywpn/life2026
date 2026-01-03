@@ -1,0 +1,88 @@
+{
+  "version": "1.0.0",
+  "realmName": "The Shattered Kingdoms",
+  "createdAt": "2025-12-30T07:20:09.492Z",
+  "updatedAt": "2025-12-30T07:22:19.957Z",
+  "locations": [
+    {
+      "id": "crossroads-inn",
+      "name": "The Crossroads Inn",
+      "type": "landmark",
+      "description": "A famous inn where adventurers gather to share tales and find work. Located at the intersection of the King's Road and the Old Trade Way.",
+      "discoveredBy": "Common Knowledge",
+      "discoveredAt": "2025-12-30T07:20:09.492Z",
+      "status": "safe",
+      "notes": [
+        "A good place to hear rumors",
+        "The innkeeper knows everyone"
+      ]
+    },
+    {
+      "id": "silverdale",
+      "name": "Silverdale",
+      "type": "town",
+      "description": "A prosperous market town known for its silver mines and skilled craftsmen.",
+      "discoveredBy": "Common Knowledge",
+      "discoveredAt": "2025-12-30T07:20:09.492Z",
+      "status": "safe",
+      "notes": []
+    },
+    {
+      "id": "ironhold",
+      "name": "Ironhold",
+      "type": "city",
+      "description": "The capital city, seat of the High King. Massive walls protect its ancient streets.",
+      "discoveredBy": "Common Knowledge",
+      "discoveredAt": "2025-12-30T07:20:09.492Z",
+      "status": "safe",
+      "notes": []
+    }
+  ],
+  "events": [],
+  "npcs": [
+    {
+      "id": "martha-innkeeper",
+      "name": "Martha Goodbarrel",
+      "title": "Innkeeper of the Crossroads",
+      "description": "A stout halfling woman with a warm smile and sharp ears. She knows every rumor in the realm.",
+      "disposition": "friendly",
+      "metBy": "Common Knowledge",
+      "metAt": "2025-12-30T07:20:09.492Z",
+      "notes": [
+        "Serves the best ale in the region",
+        "Has contacts everywhere"
+      ]
+    }
+  ],
+  "factions": [
+    {
+      "id": "adventurers-guild",
+      "name": "The Adventurers Guild",
+      "description": "An organization that connects heroes with those in need. Posts bounties and quests at taverns throughout the realm.",
+      "type": "guild",
+      "status": "active",
+      "characterRelations": {}
+    },
+    {
+      "id": "crown",
+      "name": "The Crown of Ironhold",
+      "description": "The royal government, led by High King Aldric III.",
+      "type": "kingdom",
+      "status": "active",
+      "characterRelations": {}
+    }
+  ],
+  "lore": [
+    {
+      "id": "shattered-kingdoms",
+      "title": "The Shattering",
+      "content": "Three centuries ago, the Great Empire fell in a cataclysm known as The Shattering. The realm split into the kingdoms we know today, and strange magic seeped into the land.",
+      "discoveredBy": "Common Knowledge",
+      "discoveredAt": "2025-12-30T07:20:09.492Z",
+      "category": "history"
+    }
+  ],
+  "characterMeetings": [],
+  "currentYear": 347,
+  "currentEra": "After the Shattering"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "human",
+  "name": "Human",
+  "description": "Versatile and ambitious, humans are the most adaptable of the common races.",
+  "abilityScoreIncreases": {
+    "strength": 1,
+    "dexterity": 1,
+    "constitution": 1,
+    "intelligence": 1,
+    "wisdom": 1,
+    "charisma": 1
+  },
+  "size": "Medium",
+  "speed": 30,
+  "languages": ["Common"],
+  "traits": [
+    {
+      "name": "Extra Language",
+      "description": "You can speak, read, and write one extra language of your choice."
+    }
+  ]
+}

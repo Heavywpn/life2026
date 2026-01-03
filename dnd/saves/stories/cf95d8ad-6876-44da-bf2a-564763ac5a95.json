@@ -1,0 +1,113 @@
+{
+  "version": "1.0.0",
+  "characterId": "cf95d8ad-6876-44da-bf2a-564763ac5a95",
+  "characterName": "Kalidan",
+  "adventureTheme": "adventure",
+  "currentSituation": "Kalidan has agreed to partner with River to investigate suspicious merchants and seek the Sunward Sanctum. They plan to depart at dawn with horses and supplies.",
+  "lastMajorEvent": "",
+  "immediateGoal": "",
+  "npcs": [
+    {
+      "id": "martha-goodbarrel",
+      "name": "Martha Goodbarrel",
+      "role": "innkeeper",
+      "status": "friendly",
+      "description": "Stout halfling woman, sharp eyes, knows every rumor and traveler",
+      "relationship": "unknown",
+      "notes": [],
+      "firstMet": "Turn 2"
+    },
+    {
+      "id": "river",
+      "name": "River",
+      "role": "academic/tracker",
+      "status": "allied",
+      "description": "Former university researcher turned tracker, knows about blessed weapons and suspicious merchant activity",
+      "relationship": "unknown",
+      "notes": [],
+      "firstMet": "Turn 12"
+    }
+  ],
+  "locations": [
+    {
+      "id": "the-crossroads-inn",
+      "name": "The Crossroads Inn",
+      "type": "inn",
+      "status": "safe",
+      "description": "Famous gathering place for adventurers at a crossroads, warm hearth, rumors and contracts",
+      "npcsPresent": [],
+      "discovered": "Turn 2",
+      "notes": []
+    },
+    {
+      "id": "the-crossroads-inn-stable",
+      "name": "The Crossroads Inn Stable",
+      "type": "stable",
+      "status": "safe",
+      "description": "Behind the famous inn, two horses wait saddled for departure",
+      "npcsPresent": [],
+      "discovered": "Turn 12",
+      "notes": []
+    }
+  ],
+  "quests": [
+    {
+      "id": "investigate-suspicious-merchants",
+      "name": "Investigate Suspicious Merchants",
+      "description": "Track merchants supplying unknown forces in the Badlands",
+      "status": "active",
+      "objectives": [
+        {
+          "description": "Follow merchant route",
+          "completed": false
+        },
+        {
+          "description": "Investigate Sunward Sanctum",
+          "completed": false
+        },
+        {
+          "description": "Discover what's being supplied",
+          "completed": false
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "find-sacred-hammer",
+      "name": "Find Sacred Hammer",
+      "description": "Seek a blessed hammer worthy of wielding",
+      "status": "active",
+      "objectives": [
+        {
+          "description": "Research Hammerwright Paladins",
+          "completed": false
+        },
+        {
+          "description": "Locate Sunward Sanctum",
+          "completed": false
+        },
+        {
+          "description": "Prove worthiness for sacred weapon",
+          "completed": false
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "discoveries": [
+    {
+      "id": "previous-paladin",
+      "title": "Previous Paladin",
+      "importance": "minor",
+      "content": "Another paladin passed through 3 months ago, heading north to hunt cultists",
+      "turnDiscovered": 2,
+      "relatedTo": []
+    }
+  ],
+  "importantItems": [],
+  "events": [],
+  "currentTurn": 12,
+  "activeThreats": [],
+  "unresolved": [],
+  "updatedAt": "2025-12-30T10:51:09.208Z"
+}

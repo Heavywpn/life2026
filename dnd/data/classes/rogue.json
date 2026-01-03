@@ -1,0 +1,160 @@
+{
+  "id": "rogue",
+  "name": "Rogue",
+  "description": "A scoundrel who uses stealth and trickery to overcome obstacles and enemies.",
+  "hitDie": 8,
+  "primaryAbility": ["dexterity"],
+  "savingThrowProficiencies": ["dexterity", "intelligence"],
+  "armorProficiencies": ["light"],
+  "weaponProficiencies": ["simple", "hand crossbow", "longsword", "rapier", "shortsword"],
+  "toolProficiencies": {
+    "fixed": ["thieves' tools"]
+  },
+  "skillChoices": {
+    "count": 4,
+    "options": ["acrobatics", "athletics", "deception", "insight", "intimidation", "investigation", "perception", "performance", "persuasion", "sleightOfHand", "stealth"]
+  },
+  "startingEquipment": [
+    {
+      "choose": 1,
+      "from": [
+        { "items": ["rapier"], "description": "A rapier" },
+        { "items": ["shortsword"], "description": "A shortsword" }
+      ]
+    },
+    {
+      "choose": 1,
+      "from": [
+        { "items": ["shortbow", "arrows (20)"], "description": "A shortbow and quiver of 20 arrows" },
+        { "items": ["shortsword"], "description": "A shortsword" }
+      ]
+    },
+    {
+      "choose": 1,
+      "from": [
+        { "items": ["burglar's pack"], "description": "A burglar's pack" },
+        { "items": ["dungeoneer's pack"], "description": "A dungeoneer's pack" },
+        { "items": ["explorer's pack"], "description": "An explorer's pack" }
+      ]
+    },
+    {
+      "choose": 0,
+      "from": [
+        { "items": ["leather armor", "dagger", "dagger", "thieves' tools"], "description": "Leather armor, two daggers, and thieves' tools" }
+      ]
+    }
+  ],
+  "features": [
+    {
+      "id": "expertise",
+      "name": "Expertise",
+      "description": "Choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies. At 6th level, you can choose two more of your proficiencies to gain this benefit.",
+      "level": 1
+    },
+    {
+      "id": "sneak-attack",
+      "name": "Sneak Attack",
+      "description": "You know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon. You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it and that enemy isn't incapacitated. The amount of the extra damage increases as you gain levels in this class (2d6 at 3rd, 3d6 at 5th, etc.).",
+      "level": 1
+    },
+    {
+      "id": "thieves-cant",
+      "name": "Thieves' Cant",
+      "description": "During your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation.",
+      "level": 1
+    },
+    {
+      "id": "cunning-action",
+      "name": "Cunning Action",
+      "description": "Your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action.",
+      "level": 2
+    },
+    {
+      "id": "uncanny-dodge",
+      "name": "Uncanny Dodge",
+      "description": "When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.",
+      "level": 5
+    },
+    {
+      "id": "evasion",
+      "name": "Evasion",
+      "description": "When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.",
+      "level": 7
+    },
+    {
+      "id": "reliable-talent",
+      "name": "Reliable Talent",
+      "description": "You have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.",
+      "level": 11
+    },
+    {
+      "id": "blindsense",
+      "name": "Blindsense",
+      "description": "If you are able to hear, you are aware of the location of any hidden or invisible creature within 10 feet of you.",
+      "level": 14
+    },
+    {
+      "id": "slippery-mind",
+      "name": "Slippery Mind",
+      "description": "You have acquired greater mental strength. You gain proficiency in Wisdom saving throws.",
+      "level": 15
+    },
+    {
+      "id": "elusive",
+      "name": "Elusive",
+      "description": "You are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't incapacitated.",
+      "level": 18
+    },
+    {
+      "id": "stroke-of-luck",
+      "name": "Stroke of Luck",
+      "description": "You have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the d20 roll as a 20. Once you use this feature, you can't use it again until you finish a short or long rest.",
+      "level": 20,
+      "uses": {
+        "count": 1,
+        "recharge": "short"
+      }
+    }
+  ],
+  "subclassLevel": 3,
+  "subclassName": "Roguish Archetype",
+  "subclasses": [
+    {
+      "id": "thief",
+      "name": "Thief",
+      "description": "You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and other criminals typically follow this archetype.",
+      "features": [
+        {
+          "id": "fast-hands",
+          "name": "Fast Hands",
+          "description": "You can use the bonus action granted by your Cunning Action to make a Dexterity (Sleight of Hand) check, use your thieves' tools to disarm a trap or open a lock, or take the Use an Object action.",
+          "level": 3
+        },
+        {
+          "id": "second-story-work",
+          "name": "Second-Story Work",
+          "description": "You gain the ability to climb faster than normal; climbing no longer costs you extra movement. In addition, when you make a running jump, the distance you cover increases by a number of feet equal to your Dexterity modifier.",
+          "level": 3
+        },
+        {
+          "id": "supreme-sneak",
+          "name": "Supreme Sneak",
+          "description": "You have advantage on a Dexterity (Stealth) check if you move no more than half your speed on the same turn.",
+          "level": 9
+        },
+        {
+          "id": "use-magic-device",
+          "name": "Use Magic Device",
+          "description": "You have learned enough about the workings of magic that you can improvise the use of items even when they are not intended for you. You ignore all class, race, and level requirements on the use of magic items.",
+          "level": 13
+        },
+        {
+          "id": "thiefs-reflexes",
+          "name": "Thief's Reflexes",
+          "description": "You have become adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10.",
+          "level": 17
+        }
+      ]
+    }
+  ]
+}

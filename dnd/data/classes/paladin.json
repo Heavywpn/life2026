@@ -1,0 +1,251 @@
+{
+  "id": "paladin",
+  "name": "Paladin",
+  "description": "A holy warrior bound to a sacred oath, combining martial prowess with divine magic.",
+  "hitDie": 10,
+  "primaryAbility": ["strength", "charisma"],
+  "savingThrowProficiencies": ["wisdom", "charisma"],
+  "armorProficiencies": ["light", "medium", "heavy", "shield"],
+  "weaponProficiencies": ["simple", "martial"],
+  "skillChoices": {
+    "count": 2,
+    "options": ["athletics", "insight", "intimidation", "medicine", "persuasion", "religion"]
+  },
+  "startingEquipment": [
+    {
+      "choose": 1,
+      "from": [
+        { "items": ["martial weapon", "shield"], "description": "A martial weapon and a shield" },
+        { "items": ["martial weapon", "martial weapon"], "description": "Two martial weapons" }
+      ]
+    },
+    {
+      "choose": 1,
+      "from": [
+        { "items": ["javelin", "javelin", "javelin", "javelin", "javelin"], "description": "Five javelins" },
+        { "items": ["simple melee weapon"], "description": "Any simple melee weapon" }
+      ]
+    },
+    {
+      "choose": 1,
+      "from": [
+        { "items": ["priest's pack"], "description": "A priest's pack" },
+        { "items": ["explorer's pack"], "description": "An explorer's pack" }
+      ]
+    },
+    {
+      "choose": 0,
+      "from": [
+        { "items": ["chain mail", "holy symbol"], "description": "Chain mail and a holy symbol" }
+      ]
+    }
+  ],
+  "spellcasting": {
+    "ability": "charisma",
+    "type": "prepared",
+    "ritual": false,
+    "focus": "holy symbol",
+    "spellSlots": {
+      "1": { "slots": [] },
+      "2": { "slots": [2] },
+      "3": { "slots": [3] },
+      "4": { "slots": [3] },
+      "5": { "slots": [4, 2] },
+      "6": { "slots": [4, 2] },
+      "7": { "slots": [4, 3] },
+      "8": { "slots": [4, 3] },
+      "9": { "slots": [4, 3, 2] },
+      "10": { "slots": [4, 3, 2] },
+      "11": { "slots": [4, 3, 3] },
+      "12": { "slots": [4, 3, 3] },
+      "13": { "slots": [4, 3, 3, 1] },
+      "14": { "slots": [4, 3, 3, 1] },
+      "15": { "slots": [4, 3, 3, 2] },
+      "16": { "slots": [4, 3, 3, 2] },
+      "17": { "slots": [4, 3, 3, 3, 1] },
+      "18": { "slots": [4, 3, 3, 3, 1] },
+      "19": { "slots": [4, 3, 3, 3, 2] },
+      "20": { "slots": [4, 3, 3, 3, 2] }
+    }
+  },
+  "features": [
+    {
+      "id": "divine-sense",
+      "name": "Divine Sense",
+      "description": "As an action, you can detect the presence of any celestial, fiend, or undead within 60 feet that is not behind total cover. You know the type but not identity. You can also detect consecrated or desecrated places. You can use this feature 1 + Charisma modifier times per long rest.",
+      "level": 1,
+      "uses": {
+        "count": "1 + charisma modifier",
+        "recharge": "long"
+      }
+    },
+    {
+      "id": "lay-on-hands",
+      "name": "Lay on Hands",
+      "description": "You have a pool of healing power equal to your paladin level × 5. As an action, you can touch a creature and restore any number of hit points from this pool. Alternatively, you can expend 5 hit points from the pool to cure one disease or neutralize one poison.",
+      "level": 1,
+      "uses": {
+        "count": "paladin level × 5",
+        "recharge": "long"
+      }
+    },
+    {
+      "id": "fighting-style-paladin",
+      "name": "Fighting Style",
+      "description": "You adopt a particular style of fighting as your specialty.",
+      "level": 2,
+      "choices": [
+        { "id": "defense", "name": "Defense", "description": "+1 bonus to AC while wearing armor" },
+        { "id": "dueling", "name": "Dueling", "description": "+2 bonus to damage rolls when wielding a melee weapon in one hand and no other weapons" },
+        { "id": "great-weapon", "name": "Great Weapon Fighting", "description": "Reroll 1s and 2s on damage dice with two-handed melee weapons" },
+        { "id": "protection", "name": "Protection", "description": "When a creature you can see attacks a target other than you within 5 feet, you can use your reaction to impose disadvantage on the attack roll (requires shield)" }
+      ]
+    },
+    {
+      "id": "spellcasting-paladin",
+      "name": "Spellcasting",
+      "description": "You have learned to draw on divine magic through meditation and prayer. You can prepare a number of paladin spells equal to your Charisma modifier + half your paladin level (rounded down, minimum of one spell).",
+      "level": 2
+    },
+    {
+      "id": "divine-smite",
+      "name": "Divine Smite",
+      "description": "When you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is 2d8 for a 1st-level slot, plus 1d8 for each spell level higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is an undead or a fiend.",
+      "level": 2
+    },
+    {
+      "id": "divine-health",
+      "name": "Divine Health",
+      "description": "The divine magic flowing through you makes you immune to disease.",
+      "level": 3
+    },
+    {
+      "id": "extra-attack-paladin",
+      "name": "Extra Attack",
+      "description": "You can attack twice, instead of once, whenever you take the Attack action on your turn.",
+      "level": 5
+    },
+    {
+      "id": "aura-of-protection",
+      "name": "Aura of Protection",
+      "description": "Whenever you or a friendly creature within 10 feet of you must make a saving throw, the creature gains a bonus to the saving throw equal to your Charisma modifier (minimum of +1). You must be conscious to grant this bonus. At 18th level, the range increases to 30 feet.",
+      "level": 6
+    },
+    {
+      "id": "aura-of-courage",
+      "name": "Aura of Courage",
+      "description": "You and friendly creatures within 10 feet of you can't be frightened while you are conscious. At 18th level, the range increases to 30 feet.",
+      "level": 10
+    },
+    {
+      "id": "improved-divine-smite",
+      "name": "Improved Divine Smite",
+      "description": "Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 radiant damage.",
+      "level": 11
+    },
+    {
+      "id": "cleansing-touch",
+      "name": "Cleansing Touch",
+      "description": "You can use your action to end one spell on yourself or on one willing creature that you touch. You can use this feature a number of times equal to your Charisma modifier (minimum of once). You regain expended uses when you finish a long rest.",
+      "level": 14,
+      "uses": {
+        "count": "charisma modifier",
+        "recharge": "long"
+      }
+    }
+  ],
+  "subclassLevel": 3,
+  "subclassName": "Sacred Oath",
+  "subclasses": [
+    {
+      "id": "oath-of-devotion",
+      "name": "Oath of Devotion",
+      "description": "The Oath of Devotion binds a paladin to the loftiest ideals of justice, virtue, and order. Called holy warriors or knights, these paladins are paragons of good.",
+      "features": [
+        {
+          "id": "oath-spells-devotion",
+          "name": "Oath Spells",
+          "description": "You gain oath spells at the paladin levels listed: 3rd (Protection from Evil and Good, Sanctuary), 5th (Lesser Restoration, Zone of Truth), 9th (Beacon of Hope, Dispel Magic), 13th (Freedom of Movement, Guardian of Faith), 17th (Commune, Flame Strike).",
+          "level": 3
+        },
+        {
+          "id": "channel-divinity-devotion",
+          "name": "Channel Divinity",
+          "description": "You gain two Channel Divinity options: Sacred Weapon (imbue your weapon with positive energy for 1 minute, adding Charisma modifier to attack rolls and emitting bright light) and Turn the Unholy (each fiend or undead within 30 feet must make a Wisdom save or be turned for 1 minute).",
+          "level": 3,
+          "uses": {
+            "count": 1,
+            "recharge": "short"
+          }
+        },
+        {
+          "id": "aura-of-devotion",
+          "name": "Aura of Devotion",
+          "description": "You and friendly creatures within 10 feet of you can't be charmed while you are conscious. At 18th level, the range increases to 30 feet.",
+          "level": 7
+        },
+        {
+          "id": "purity-of-spirit",
+          "name": "Purity of Spirit",
+          "description": "You are always under the effects of a Protection from Evil and Good spell.",
+          "level": 15
+        },
+        {
+          "id": "holy-nimbus",
+          "name": "Holy Nimbus",
+          "description": "As an action, you emanate an aura of sunlight for 1 minute. You shed bright light in a 30-foot radius and dim light 30 feet beyond that. Enemies that start their turn in the bright light take 10 radiant damage. You also have advantage on saving throws against spells cast by fiends or undead.",
+          "level": 20,
+          "uses": {
+            "count": 1,
+            "recharge": "long"
+          }
+        }
+      ]
+    },
+    {
+      "id": "oath-of-vengeance",
+      "name": "Oath of Vengeance",
+      "description": "The Oath of Vengeance is a solemn commitment to punish those who have committed grievous sins. These paladins are willing to sacrifice their own righteousness to deliver justice.",
+      "features": [
+        {
+          "id": "oath-spells-vengeance",
+          "name": "Oath Spells",
+          "description": "You gain oath spells at the paladin levels listed: 3rd (Bane, Hunter's Mark), 5th (Hold Person, Misty Step), 9th (Haste, Protection from Energy), 13th (Banishment, Dimension Door), 17th (Hold Monster, Scrying).",
+          "level": 3
+        },
+        {
+          "id": "channel-divinity-vengeance",
+          "name": "Channel Divinity",
+          "description": "You gain two Channel Divinity options: Abjure Enemy (frighten one creature within 60 feet, speed becomes 0 on failed Wisdom save) and Vow of Enmity (gain advantage on attack rolls against one creature within 10 feet for 1 minute).",
+          "level": 3,
+          "uses": {
+            "count": 1,
+            "recharge": "short"
+          }
+        },
+        {
+          "id": "relentless-avenger",
+          "name": "Relentless Avenger",
+          "description": "When you hit a creature with an opportunity attack, you can move up to half your speed immediately after the attack as part of the same reaction. This movement doesn't provoke opportunity attacks.",
+          "level": 7
+        },
+        {
+          "id": "soul-of-vengeance",
+          "name": "Soul of Vengeance",
+          "description": "When a creature under the effect of your Vow of Enmity makes an attack, you can use your reaction to make a melee weapon attack against that creature.",
+          "level": 15
+        },
+        {
+          "id": "avenging-angel",
+          "name": "Avenging Angel",
+          "description": "As an action, you transform for 1 hour: you sprout wings (60 ft. fly speed) and emanate a 30-foot aura of menace. Enemies that enter or start in the aura must make a Wisdom save or be frightened for 1 minute.",
+          "level": 20,
+          "uses": {
+            "count": 1,
+            "recharge": "long"
+          }
+        }
+      ]
+    }
+  ]
+}

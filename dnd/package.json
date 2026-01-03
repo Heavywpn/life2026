@@ -1,0 +1,34 @@
+{
+  "name": "dnd-cli-rpg",
+  "version": "1.0.0",
+  "description": "D&D 5e CLI RPG Game",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "play": "tsx src/index.ts play",
+    "new-char": "tsx src/index.ts new-character",
+    "roll": "tsx src/index.ts roll"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.7",
+    "inquirer": "^12.3.0",
+    "boxen": "^8.0.1",
+    "figlet": "^1.8.0",
+    "zod": "^3.24.1",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.7.0",
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^22.10.2",
+    "@types/uuid": "^10.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

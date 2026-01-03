@@ -1,0 +1,244 @@
+[
+  {
+    "id": "goblin",
+    "name": "Goblin",
+    "size": "Small",
+    "type": "humanoid",
+    "subtype": "goblinoid",
+    "alignment": "neutral evil",
+    "armorClass": 15,
+    "armorType": "leather armor, shield",
+    "hitPoints": 7,
+    "hitDice": "2d6",
+    "speed": { "walk": 30 },
+    "abilityScores": {
+      "strength": 8,
+      "dexterity": 14,
+      "constitution": 10,
+      "intelligence": 10,
+      "wisdom": 8,
+      "charisma": 8
+    },
+    "skills": { "stealth": 6 },
+    "senses": { "darkvision": 60, "passivePerception": 9 },
+    "languages": ["Common", "Goblin"],
+    "challengeRating": 0.25,
+    "experiencePoints": 50,
+    "traits": [
+      {
+        "name": "Nimble Escape",
+        "description": "The goblin can take the Disengage or Hide action as a bonus action on each of its turns."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Scimitar",
+        "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.",
+        "attackBonus": 4,
+        "damage": "1d6+2",
+        "damageType": "slashing",
+        "reach": 5
+      },
+      {
+        "name": "Shortbow",
+        "description": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+        "attackBonus": 4,
+        "damage": "1d6+2",
+        "damageType": "piercing",
+        "range": { "normal": 80, "long": 320 }
+      }
+    ]
+  },
+  {
+    "id": "goblin-boss",
+    "name": "Goblin Boss",
+    "size": "Small",
+    "type": "humanoid",
+    "subtype": "goblinoid",
+    "alignment": "neutral evil",
+    "armorClass": 17,
+    "armorType": "chain shirt, shield",
+    "hitPoints": 21,
+    "hitDice": "6d6",
+    "speed": { "walk": 30 },
+    "abilityScores": {
+      "strength": 10,
+      "dexterity": 14,
+      "constitution": 10,
+      "intelligence": 10,
+      "wisdom": 8,
+      "charisma": 10
+    },
+    "skills": { "stealth": 6 },
+    "senses": { "darkvision": 60, "passivePerception": 9 },
+    "languages": ["Common", "Goblin"],
+    "challengeRating": 1,
+    "experiencePoints": 200,
+    "traits": [
+      {
+        "name": "Nimble Escape",
+        "description": "The goblin can take the Disengage or Hide action as a bonus action on each of its turns."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "description": "The goblin makes two attacks with its scimitar. The second attack has disadvantage.",
+        "multiattack": true
+      },
+      {
+        "name": "Scimitar",
+        "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.",
+        "attackBonus": 4,
+        "damage": "1d6+2",
+        "damageType": "slashing",
+        "reach": 5
+      },
+      {
+        "name": "Javelin",
+        "description": "Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 3 (1d6) piercing damage.",
+        "attackBonus": 2,
+        "damage": "1d6",
+        "damageType": "piercing",
+        "reach": 5,
+        "range": { "normal": 30, "long": 120 }
+      }
+    ],
+    "reactions": [
+      {
+        "name": "Redirect Attack",
+        "description": "When a creature the goblin can see targets it with an attack, the goblin chooses another goblin within 5 feet of it. The two goblins swap places, and the chosen goblin becomes the target instead."
+      }
+    ]
+  },
+  {
+    "id": "bandit",
+    "name": "Bandit",
+    "size": "Medium",
+    "type": "humanoid",
+    "subtype": "any race",
+    "alignment": "any non-lawful",
+    "armorClass": 12,
+    "armorType": "leather armor",
+    "hitPoints": 11,
+    "hitDice": "2d8+2",
+    "speed": { "walk": 30 },
+    "abilityScores": {
+      "strength": 11,
+      "dexterity": 12,
+      "constitution": 12,
+      "intelligence": 10,
+      "wisdom": 10,
+      "charisma": 10
+    },
+    "senses": { "passivePerception": 10 },
+    "languages": ["Common"],
+    "challengeRating": 0.125,
+    "experiencePoints": 25,
+    "actions": [
+      {
+        "name": "Scimitar",
+        "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) slashing damage.",
+        "attackBonus": 3,
+        "damage": "1d6+1",
+        "damageType": "slashing",
+        "reach": 5
+      },
+      {
+        "name": "Light Crossbow",
+        "description": "Ranged Weapon Attack: +3 to hit, range 80/320 ft., one target. Hit: 5 (1d8 + 1) piercing damage.",
+        "attackBonus": 3,
+        "damage": "1d8+1",
+        "damageType": "piercing",
+        "range": { "normal": 80, "long": 320 }
+      }
+    ]
+  },
+  {
+    "id": "skeleton",
+    "name": "Skeleton",
+    "size": "Medium",
+    "type": "undead",
+    "alignment": "lawful evil",
+    "armorClass": 13,
+    "armorType": "armor scraps",
+    "hitPoints": 13,
+    "hitDice": "2d8+4",
+    "speed": { "walk": 30 },
+    "abilityScores": {
+      "strength": 10,
+      "dexterity": 14,
+      "constitution": 15,
+      "intelligence": 6,
+      "wisdom": 8,
+      "charisma": 5
+    },
+    "damageVulnerabilities": ["bludgeoning"],
+    "damageImmunities": ["poison"],
+    "conditionImmunities": ["exhaustion", "poisoned"],
+    "senses": { "darkvision": 60, "passivePerception": 9 },
+    "languages": ["understands languages it knew in life but can't speak"],
+    "challengeRating": 0.25,
+    "experiencePoints": 50,
+    "actions": [
+      {
+        "name": "Shortsword",
+        "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+        "attackBonus": 4,
+        "damage": "1d6+2",
+        "damageType": "piercing",
+        "reach": 5
+      },
+      {
+        "name": "Shortbow",
+        "description": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+        "attackBonus": 4,
+        "damage": "1d6+2",
+        "damageType": "piercing",
+        "range": { "normal": 80, "long": 320 }
+      }
+    ]
+  },
+  {
+    "id": "zombie",
+    "name": "Zombie",
+    "size": "Medium",
+    "type": "undead",
+    "alignment": "neutral evil",
+    "armorClass": 8,
+    "hitPoints": 22,
+    "hitDice": "3d8+9",
+    "speed": { "walk": 20 },
+    "abilityScores": {
+      "strength": 13,
+      "dexterity": 6,
+      "constitution": 16,
+      "intelligence": 3,
+      "wisdom": 6,
+      "charisma": 5
+    },
+    "savingThrows": { "wisdom": 0 },
+    "damageImmunities": ["poison"],
+    "conditionImmunities": ["poisoned"],
+    "senses": { "darkvision": 60, "passivePerception": 8 },
+    "languages": ["understands languages it knew in life but can't speak"],
+    "challengeRating": 0.25,
+    "experiencePoints": 50,
+    "traits": [
+      {
+        "name": "Undead Fortitude",
+        "description": "If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Slam",
+        "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage.",
+        "attackBonus": 3,
+        "damage": "1d6+1",
+        "damageType": "bludgeoning",
+        "reach": 5
+      }
+    ]
+  }
+]

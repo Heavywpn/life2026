@@ -1,0 +1,142 @@
+{
+  "id": "wizard",
+  "name": "Wizard",
+  "description": "A scholarly magic-user capable of manipulating the structures of reality through study and practice.",
+  "hitDie": 6,
+  "primaryAbility": ["intelligence"],
+  "savingThrowProficiencies": ["intelligence", "wisdom"],
+  "armorProficiencies": [],
+  "weaponProficiencies": ["dagger", "dart", "sling", "quarterstaff", "light crossbow"],
+  "skillChoices": {
+    "count": 2,
+    "options": ["arcana", "history", "insight", "investigation", "medicine", "religion"]
+  },
+  "startingEquipment": [
+    {
+      "choose": 1,
+      "from": [
+        { "items": ["quarterstaff"], "description": "A quarterstaff" },
+        { "items": ["dagger"], "description": "A dagger" }
+      ]
+    },
+    {
+      "choose": 1,
+      "from": [
+        { "items": ["component pouch"], "description": "A component pouch" },
+        { "items": ["arcane focus"], "description": "An arcane focus" }
+      ]
+    },
+    {
+      "choose": 1,
+      "from": [
+        { "items": ["scholar's pack"], "description": "A scholar's pack" },
+        { "items": ["explorer's pack"], "description": "An explorer's pack" }
+      ]
+    },
+    {
+      "choose": 0,
+      "from": [
+        { "items": ["spellbook"], "description": "A spellbook" }
+      ]
+    }
+  ],
+  "spellcasting": {
+    "ability": "intelligence",
+    "type": "prepared",
+    "ritual": true,
+    "focus": "arcane focus",
+    "spellSlots": {
+      "1": { "cantripsKnown": 3, "slots": [2] },
+      "2": { "cantripsKnown": 3, "slots": [3] },
+      "3": { "cantripsKnown": 3, "slots": [4, 2] },
+      "4": { "cantripsKnown": 4, "slots": [4, 3] },
+      "5": { "cantripsKnown": 4, "slots": [4, 3, 2] },
+      "6": { "cantripsKnown": 4, "slots": [4, 3, 3] },
+      "7": { "cantripsKnown": 4, "slots": [4, 3, 3, 1] },
+      "8": { "cantripsKnown": 4, "slots": [4, 3, 3, 2] },
+      "9": { "cantripsKnown": 4, "slots": [4, 3, 3, 3, 1] },
+      "10": { "cantripsKnown": 5, "slots": [4, 3, 3, 3, 2] },
+      "11": { "cantripsKnown": 5, "slots": [4, 3, 3, 3, 2, 1] },
+      "12": { "cantripsKnown": 5, "slots": [4, 3, 3, 3, 2, 1] },
+      "13": { "cantripsKnown": 5, "slots": [4, 3, 3, 3, 2, 1, 1] },
+      "14": { "cantripsKnown": 5, "slots": [4, 3, 3, 3, 2, 1, 1] },
+      "15": { "cantripsKnown": 5, "slots": [4, 3, 3, 3, 2, 1, 1, 1] },
+      "16": { "cantripsKnown": 5, "slots": [4, 3, 3, 3, 2, 1, 1, 1] },
+      "17": { "cantripsKnown": 5, "slots": [4, 3, 3, 3, 2, 1, 1, 1, 1] },
+      "18": { "cantripsKnown": 5, "slots": [4, 3, 3, 3, 3, 1, 1, 1, 1] },
+      "19": { "cantripsKnown": 5, "slots": [4, 3, 3, 3, 3, 2, 1, 1, 1] },
+      "20": { "cantripsKnown": 5, "slots": [4, 3, 3, 3, 3, 2, 2, 1, 1] }
+    }
+  },
+  "features": [
+    {
+      "id": "spellcasting-wizard",
+      "name": "Spellcasting",
+      "description": "As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power. You can prepare a number of spells equal to your Intelligence modifier + your wizard level (minimum of one spell).",
+      "level": 1
+    },
+    {
+      "id": "arcane-recovery",
+      "name": "Arcane Recovery",
+      "description": "You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th level or higher.",
+      "level": 1,
+      "uses": {
+        "count": 1,
+        "recharge": "long"
+      }
+    },
+    {
+      "id": "spell-mastery",
+      "name": "Spell Mastery",
+      "description": "You have achieved such mastery over certain spells that you can cast them at will. Choose a 1st-level wizard spell and a 2nd-level wizard spell that are in your spellbook. You can cast those spells at their lowest level without expending a spell slot when you have them prepared.",
+      "level": 18
+    },
+    {
+      "id": "signature-spells",
+      "name": "Signature Spells",
+      "description": "You gain mastery over two powerful spells and can cast them with little effort. Choose two 3rd-level wizard spells in your spellbook as your signature spells. You always have these spells prepared, they don't count against your number of prepared spells, and you can cast each of them once at 3rd level without expending a spell slot.",
+      "level": 20
+    }
+  ],
+  "subclassLevel": 2,
+  "subclassName": "Arcane Tradition",
+  "subclasses": [
+    {
+      "id": "evocation",
+      "name": "School of Evocation",
+      "description": "You focus your study on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid.",
+      "features": [
+        {
+          "id": "evocation-savant",
+          "name": "Evocation Savant",
+          "description": "The gold and time you must spend to copy an evocation spell into your spellbook is halved.",
+          "level": 2
+        },
+        {
+          "id": "sculpt-spells",
+          "name": "Sculpt Spells",
+          "description": "You can create pockets of relative safety within the effects of your evocation spells. When you cast an evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 + the spell's level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save.",
+          "level": 2
+        },
+        {
+          "id": "potent-cantrip",
+          "name": "Potent Cantrip",
+          "description": "Your damaging cantrips affect even creatures that avoid the brunt of the effect. When a creature succeeds on a saving throw against your cantrip, the creature takes half the cantrip's damage (if any) but suffers no additional effect from the cantrip.",
+          "level": 6
+        },
+        {
+          "id": "empowered-evocation",
+          "name": "Empowered Evocation",
+          "description": "You can add your Intelligence modifier to one damage roll of any wizard evocation spell you cast.",
+          "level": 10
+        },
+        {
+          "id": "overchannel",
+          "name": "Overchannel",
+          "description": "You can increase the power of your simpler spells. When you cast a wizard spell of 1st through 5th level that deals damage, you can deal maximum damage with that spell. The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a long rest, you take 2d12 necrotic damage for each level of the spell, immediately after you cast it. Each time you use this feature again before finishing a long rest, the necrotic damage per spell level increases by 1d12.",
+          "level": 14
+        }
+      ]
+    }
+  ]
+}

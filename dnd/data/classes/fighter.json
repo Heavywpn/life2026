@@ -1,0 +1,137 @@
+{
+  "id": "fighter",
+  "name": "Fighter",
+  "description": "A master of martial combat, skilled with a variety of weapons and armor.",
+  "hitDie": 10,
+  "primaryAbility": ["strength", "dexterity"],
+  "savingThrowProficiencies": ["strength", "constitution"],
+  "armorProficiencies": ["light", "medium", "heavy", "shield"],
+  "weaponProficiencies": ["simple", "martial"],
+  "skillChoices": {
+    "count": 2,
+    "options": ["acrobatics", "animalHandling", "athletics", "history", "insight", "intimidation", "perception", "survival"]
+  },
+  "startingEquipment": [
+    {
+      "choose": 1,
+      "from": [
+        { "items": ["chain mail"], "description": "Chain mail" },
+        { "items": ["leather armor", "longbow", "arrows (20)"], "description": "Leather armor, longbow, and 20 arrows" }
+      ]
+    },
+    {
+      "choose": 1,
+      "from": [
+        { "items": ["martial weapon", "shield"], "description": "A martial weapon and a shield" },
+        { "items": ["martial weapon", "martial weapon"], "description": "Two martial weapons" }
+      ]
+    },
+    {
+      "choose": 1,
+      "from": [
+        { "items": ["light crossbow", "bolts (20)"], "description": "A light crossbow and 20 bolts" },
+        { "items": ["handaxe", "handaxe"], "description": "Two handaxes" }
+      ]
+    },
+    {
+      "choose": 1,
+      "from": [
+        { "items": ["dungeoneer's pack"], "description": "A dungeoneer's pack" },
+        { "items": ["explorer's pack"], "description": "An explorer's pack" }
+      ]
+    }
+  ],
+  "features": [
+    {
+      "id": "fighting-style",
+      "name": "Fighting Style",
+      "description": "You adopt a particular style of fighting as your specialty.",
+      "level": 1,
+      "choices": [
+        { "id": "archery", "name": "Archery", "description": "+2 bonus to attack rolls with ranged weapons" },
+        { "id": "defense", "name": "Defense", "description": "+1 bonus to AC while wearing armor" },
+        { "id": "dueling", "name": "Dueling", "description": "+2 bonus to damage rolls when wielding a melee weapon in one hand" },
+        { "id": "great-weapon", "name": "Great Weapon Fighting", "description": "Reroll 1s and 2s on damage dice with two-handed weapons" },
+        { "id": "protection", "name": "Protection", "description": "Impose disadvantage on attack against ally within 5 feet (requires shield)" },
+        { "id": "two-weapon", "name": "Two-Weapon Fighting", "description": "Add ability modifier to damage of second attack" }
+      ]
+    },
+    {
+      "id": "second-wind",
+      "name": "Second Wind",
+      "description": "You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level. Once you use this feature, you must finish a short or long rest before you can use it again.",
+      "level": 1,
+      "uses": {
+        "count": 1,
+        "recharge": "short"
+      }
+    },
+    {
+      "id": "action-surge",
+      "name": "Action Surge",
+      "description": "You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action. Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest.",
+      "level": 2,
+      "uses": {
+        "count": 1,
+        "recharge": "short"
+      }
+    },
+    {
+      "id": "extra-attack",
+      "name": "Extra Attack",
+      "description": "You can attack twice, instead of once, whenever you take the Attack action on your turn. The number of attacks increases to three at 11th level and to four at 20th level.",
+      "level": 5
+    },
+    {
+      "id": "indomitable",
+      "name": "Indomitable",
+      "description": "You can reroll a saving throw that you fail. If you do so, you must use the new roll. You can use this feature once between long rests. You can use it twice starting at 13th level and three times starting at 17th level.",
+      "level": 9,
+      "uses": {
+        "count": 1,
+        "recharge": "long"
+      }
+    }
+  ],
+  "subclassLevel": 3,
+  "subclassName": "Martial Archetype",
+  "subclasses": [
+    {
+      "id": "champion",
+      "name": "Champion",
+      "description": "The archetypal Champion focuses on the development of raw physical power honed to deadly perfection.",
+      "features": [
+        {
+          "id": "improved-critical",
+          "name": "Improved Critical",
+          "description": "Your weapon attacks score a critical hit on a roll of 19 or 20.",
+          "level": 3
+        },
+        {
+          "id": "remarkable-athlete",
+          "name": "Remarkable Athlete",
+          "description": "Add half your proficiency bonus to any Strength, Dexterity, or Constitution check you make that doesn't already use your proficiency bonus. Also, your running long jump increases by feet equal to your Strength modifier.",
+          "level": 7
+        },
+        {
+          "id": "additional-fighting-style",
+          "name": "Additional Fighting Style",
+          "description": "You can choose a second option from the Fighting Style class feature.",
+          "level": 10
+        },
+        {
+          "id": "superior-critical",
+          "name": "Superior Critical",
+          "description": "Your weapon attacks score a critical hit on a roll of 18-20.",
+          "level": 15
+        },
+        {
+          "id": "survivor",
+          "name": "Survivor",
+          "description": "At the start of each of your turns, you regain hit points equal to 5 + your Constitution modifier if you have no more than half of your hit points left. You don't gain this benefit if you have 0 hit points.",
+          "level": 18
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+[
+  {
+    "id": "acolyte",
+    "name": "Acolyte",
+    "description": "You have spent your life in the service of a temple to a specific god or pantheon of gods.",
+    "skillProficiencies": ["insight", "religion"],
+    "languages": 2,
+    "equipment": ["holy symbol", "prayer book", "5 sticks of incense", "vestments", "common clothes", "15 gp"],
+    "feature": {
+      "name": "Shelter of the Faithful",
+      "description": "You and your adventuring companions can expect to receive free healing and care at a temple, shrine, or other established presence of your faith. You must provide any material components needed for spells."
+    },
+    "personalityTraits": [
+      "I idolize a particular hero of my faith.",
+      "I can find common ground between the fiercest enemies.",
+      "I see omens in every event and action.",
+      "Nothing can shake my optimistic attitude.",
+      "I quote sacred texts and proverbs in almost every situation.",
+      "I am tolerant of other faiths and respect their ways."
+    ],
+    "ideals": [
+      "Tradition. The ancient traditions must be preserved and upheld.",
+      "Charity. I always try to help those in need.",
+      "Change. We must help bring about the changes the gods are working in the world.",
+      "Power. I hope to one day rise to the top of my faith's hierarchy.",
+      "Faith. I trust that my deity will guide my actions.",
+      "Aspiration. I seek to prove myself worthy of my god's favor."
+    ],
+    "bonds": [
+      "I would die to recover an ancient relic of my faith.",
+      "I will someday get revenge on the corrupt temple hierarchy.",
+      "I owe my life to the priest who took me in.",
+      "Everything I do is for the common people.",
+      "I will do anything to protect the temple where I served."
+    ],
+    "flaws": [
+      "I judge others harshly, and myself even more severely.",
+      "I put too much trust in those who wield power within my temple.",
+      "My piety sometimes leads me to blindly trust those that profess faith.",
+      "I am inflexible in my thinking.",
+      "I am suspicious of strangers."
+    ]
+  },
+  {
+    "id": "criminal",
+    "name": "Criminal",
+    "description": "You are an experienced criminal with a history of breaking the law.",
+    "skillProficiencies": ["deception", "stealth"],
+    "toolProficiencies": ["thieves' tools", "gaming set"],
+    "equipment": ["crowbar", "common clothes (dark)", "15 gp"],
+    "feature": {
+      "name": "Criminal Contact",
+      "description": "You have a reliable and trustworthy contact who acts as your liaison to a network of other criminals."
+    },
+    "personalityTraits": [
+      "I always have a plan for what to do when things go wrong.",
+      "I am always calm, no matter what the situation.",
+      "The first thing I do in a new place is note escape routes.",
+      "I would rather make a new friend than a new enemy.",
+      "I am incredibly slow to trust.",
+      "I don't pay attention to the risks in a situation."
+    ],
+    "ideals": [
+      "Honor. I don't steal from others in the trade.",
+      "Freedom. Chains are meant to be broken.",
+      "Charity. I steal from the wealthy to give to those in need.",
+      "Greed. I will do whatever it takes to become wealthy.",
+      "People. I'm loyal to my friends, not to any ideals.",
+      "Redemption. There's a spark of good in everyone."
+    ],
+    "bonds": [
+      "I'm trying to pay off an old debt I owe to a generous benefactor.",
+      "My ill-gotten gains go to support my family.",
+      "Something important was taken from me, and I aim to steal it back.",
+      "I will become the greatest thief that ever lived.",
+      "I'm guilty of a terrible crime and I seek redemption."
+    ],
+    "flaws": [
+      "When I see something valuable, I can't think about anything but how to steal it.",
+      "When faced with a choice, I always choose the shadier option.",
+      "I have a 'tell' that reveals when I'm lying.",
+      "I turn tail and run when things look bad.",
+      "An innocent person is in prison for a crime that I committed."
+    ]
+  },
+  {
+    "id": "folk-hero",
+    "name": "Folk Hero",
+    "description": "You come from a humble social rank, but you are destined for so much more.",
+    "skillProficiencies": ["animalHandling", "survival"],
+    "toolProficiencies": ["artisan's tools", "vehicles (land)"],
+    "equipment": ["artisan's tools", "shovel", "iron pot", "common clothes", "10 gp"],
+    "feature": {
+      "name": "Rustic Hospitality",
+      "description": "Since you come from the ranks of the common folk, you fit in among them with ease. You can find a place to hide, rest, or recuperate among other commoners."
+    },
+    "personalityTraits": [
+      "I judge people by their actions, not their words.",
+      "If someone is in trouble, I'm always ready to lend help.",
+      "When I set my mind to something, I follow through.",
+      "I have a strong sense of fair play.",
+      "I'm confident in my own abilities.",
+      "Thinking is for other people. I prefer action."
+    ],
+    "ideals": [
+      "Respect. People deserve to be treated with dignity.",
+      "Fairness. No one should get preferential treatment.",
+      "Freedom. Tyrants must not be allowed to oppress the people.",
+      "Might. The strong should protect the weak.",
+      "Sincerity. There's no good in pretending to be something I'm not.",
+      "Destiny. Nothing can stop me on my path to greatness."
+    ],
+    "bonds": [
+      "I have a family that I would do anything for.",
+      "I worked the land; I love the land.",
+      "A proud noble once gave me a horrible beating, and I will take my revenge.",
+      "My tools are symbols of my past life, and I carry them to remember.",
+      "I protect those who cannot protect themselves."
+    ],
+    "flaws": [
+      "The tyrant who rules my land will stop at nothing to see me killed.",
+      "I'm convinced of the significance of my destiny.",
+      "I have a weakness for the vices of the city.",
+      "I secretly believe that everyone is beneath me.",
+      "I have trouble trusting in my allies."
+    ]
+  },
+  {
+    "id": "noble",
+    "name": "Noble",
+    "description": "You understand wealth, power, and privilege. You carry a noble title.",
+    "skillProficiencies": ["history", "persuasion"],
+    "toolProficiencies": ["gaming set"],
+    "languages": 1,
+    "equipment": ["fine clothes", "signet ring", "scroll of pedigree", "25 gp"],
+    "feature": {
+      "name": "Position of Privilege",
+      "description": "Thanks to your noble birth, people are inclined to think the best of you. You are welcome in high society, and people assume you have the right to be wherever you are."
+    },
+    "personalityTraits": [
+      "My eloquent flattery makes everyone I talk to feel important.",
+      "The common folk love me for my kindness and generosity.",
+      "No one could doubt by looking at my regal bearing that I am above the common folk.",
+      "I take great pains to always look my best.",
+      "I don't like to get my hands dirty.",
+      "Despite my noble birth, I do not place myself above other folk."
+    ],
+    "ideals": [
+      "Respect. Respect is due to me because of my position.",
+      "Responsibility. It is my duty to protect my people.",
+      "Independence. I must prove that I can handle myself.",
+      "Power. If I can attain more power, no one will tell me what to do.",
+      "Family. Blood runs thicker than water.",
+      "Noble Obligation. It is my duty to protect and care for those beneath me."
+    ],
+    "bonds": [
+      "I will face any challenge to win the approval of my family.",
+      "My house's alliance with another noble family must be sustained.",
+      "Nothing is more important than the other members of my family.",
+      "I am in love with the heir of a family that my family despises.",
+      "My loyalty to my sovereign is unwavering."
+    ],
+    "flaws": [
+      "I secretly believe that everyone is beneath me.",
+      "I hide a truly scandalous secret that could ruin my family forever.",
+      "I too often hear veiled insults and threats, even where none exist.",
+      "I have an insatiable desire for carnal pleasures.",
+      "In fact, the world does revolve around me."
+    ]
+  },
+  {
+    "id": "soldier",
+    "name": "Soldier",
+    "description": "War has been your life for as long as you care to remember.",
+    "skillProficiencies": ["athletics", "intimidation"],
+    "toolProficiencies": ["gaming set", "vehicles (land)"],
+    "equipment": ["insignia of rank", "trophy from fallen enemy", "dice set", "common clothes", "10 gp"],
+    "feature": {
+      "name": "Military Rank",
+      "description": "You have a military rank from your career as a soldier. Soldiers loyal to your former military organization still recognize your authority."
+    },
+    "personalityTraits": [
+      "I'm always polite and respectful.",
+      "I'm haunted by memories of war.",
+      "I've lost too many friends, and I'm slow to make new ones.",
+      "I'm full of inspiring and cautionary tales from my military experience.",
+      "I can stare down a hell hound without flinching.",
+      "I enjoy being strong and like breaking things."
+    ],
+    "ideals": [
+      "Greater Good. Our lot is to lay down our lives in defense of others.",
+      "Responsibility. I do what I must and obey just authority.",
+      "Independence. When people follow orders blindly, they embrace tyranny.",
+      "Might. In life as in war, the stronger force wins.",
+      "Live and Let Live. Ideals aren't worth killing over.",
+      "Nation. My city, nation, or people are all that matter."
+    ],
+    "bonds": [
+      "I would still lay down my life for the people I served with.",
+      "Someone saved my life on the battlefield. I will never leave a friend behind.",
+      "My honor is my life.",
+      "I'll never forget the crushing defeat my company suffered.",
+      "Those who fight beside me are worth dying for."
+    ],
+    "flaws": [
+      "The monstrous enemy we faced in battle still leaves me quivering.",
+      "I have little respect for anyone who is not a proven warrior.",
+      "I made a terrible mistake in battle that cost many lives.",
+      "My hatred of my enemies is blind and unreasoning.",
+      "I obey the law, even if the law causes misery."
+    ]
+  }
+]
